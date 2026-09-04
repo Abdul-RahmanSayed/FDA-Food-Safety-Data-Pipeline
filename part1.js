@@ -9,7 +9,7 @@ const pageLimit = 100;
 const requestTimeout = 30_000;
 const requestInterval = 300;
 const maxRetries = 3;
-const retryStatuses = new Set([429, 500, 502, 503, 504]);
+const retryStatuses = new Set([408, 429, 500, 502, 503, 504]);
 const networkCodes = new Set([
   "ECONNRESET", "ECONNREFUSED", "ETIMEDOUT", "EAI_AGAIN", "ENOTFOUND", "ENETUNREACH", "EHOSTUNREACH",
   "UND_ERR_CONNECT_TIMEOUT", "UND_ERR_HEADERS_TIMEOUT", "UND_ERR_BODY_TIMEOUT", "UND_ERR_SOCKET",
