@@ -1,0 +1,3076 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-07-07",
+    "results": {
+      "skip": 0,
+      "limit": 100,
+      "total": 6650
+    }
+  },
+  "results": [
+    {
+      "report_number": "190130",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "CONSTIPATION",
+        "HYPERSENSITIVITY",
+        "MYALGIA",
+        "NAUSEA"
+      ],
+      "date_started": "20150901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS, HONEY NUT",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "189445",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150904",
+      "reactions": [
+        "DRY SKIN",
+        "HYPERSENSITIVITY",
+        "SKIN EXFOLIATION"
+      ],
+      "date_started": "20150901",
+      "consumer": {
+        "age": "40",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ENVIRON IONZYME C-QUENCE MOISTURIZER",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ENVIRON IONZYME C-QUENCE EYE CREAM",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-003493",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211111",
+      "reactions": [
+        "Ovarian cancer stage IV"
+      ],
+      "date_started": "20150901",
+      "consumer": {
+        "age": "56",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2024-CFS-001191",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20231101",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150901",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190036",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150925",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ASTHENIA",
+        "COELIAC DISEASE",
+        "DIZZINESS",
+        "HEADACHE",
+        "VOMITING"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "49",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-001024",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220125",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "49",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189873",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150922",
+      "reactions": [
+        "ARTHRALGIA",
+        "GASTROINTESTINAL DISORDER"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189989",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150922",
+      "reactions": [
+        "CHOKING",
+        "OROPHARYNGEAL PAIN"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATURE MADE BURP-LESS FISH OIL 1200 MG LIQUID SOFTGEL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190611",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151013",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "EARLY SATIETY"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "57",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIRKLAND SIGNATURE KRILL OIL DIETARY SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "OMEGA FISH OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190219",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "BURNING SENSATION",
+        "RASH GENERALISED"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SUNDOWN NATURALS NIACIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2020-CFS-005735",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20191220",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "191034",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150929",
+      "reactions": [
+        "NAUSEA"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PAMPA FANCY SMOKED MUSSELS",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "190455",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20151007",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "COELIAC DISEASE",
+        "DIARRHOEA",
+        "DIZZINESS",
+        "ENCEPHALOPATHY",
+        "NAUSEA"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "43",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "191434",
+      "outcomes": [
+        "Life Threatening",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151114",
+      "reactions": [
+        "BONE LOSS",
+        "NEPHROCALCINOSIS"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "7",
+        "age_unit": "month(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SUN DROPS VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190067",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150923",
+      "reactions": [
+        "BLOOD GLUCOSE INCREASED"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "79",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PRESERVISION AREDS 2 FORMULA SOFT GELS (CAPSULE, SOFT)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189830",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "BURNING SENSATION",
+        "RASH GENERALISED"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SUNDOWN NATURALS NIACIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-015849",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220110",
+      "reactions": [
+        "Ovarian cancer stage II"
+      ],
+      "date_started": "20150902",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-002213",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211110",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-015907",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220109",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190184",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150930",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ALOPECIA",
+        "BLOOD URINE PRESENT",
+        "COELIAC DISEASE",
+        "FATIGUE",
+        "GASTROINTESTINAL INJURY",
+        "HAEMATOCHEZIA",
+        "URINARY SEDIMENT PRESENT"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS - GLUTEN FREE",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2020-CFS-009257",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20200924",
+      "reactions": [
+        "Fallopian tube cancer stage III",
+        "Thrombocytopenia"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "55",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-012639",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20231016",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "74",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "SHOWER TO SHOWER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-002268",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210301",
+      "reactions": [
+        "Malignant peritoneal neoplasm"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "86",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-015449",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220108",
+      "reactions": [
+        "Malignant peritoneal neoplasm",
+        "Ovarian cancer"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190381",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20151006",
+      "reactions": [
+        "ATAXIA",
+        "COGNITIVE DISORDER",
+        "FATIGUE",
+        "GAIT DISTURBANCE"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTI-VITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN B-12",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D-3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-006423",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20230103",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190400",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151008",
+      "reactions": [
+        "DIZZINESS",
+        "HYPERHIDROSIS",
+        "NAUSEA",
+        "RENAL FAILURE",
+        "WHITE BLOOD CELL COUNT DECREASED"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GNC GENETIX ELITE PHYSIQUE VITAPAK DIETARY SUPPLEMENT PACK",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189614",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150914",
+      "reactions": [
+        "ALOPECIA"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WEN SHAMPOO",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191281",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151020",
+      "reactions": [
+        "DYSPNOEA",
+        "EYE SWELLING",
+        "HYPERSENSITIVITY",
+        "PRURITUS",
+        "SKIN IRRITATION",
+        "SWELLING FACE"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189775",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150918",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN",
+        "ARTHRALGIA",
+        "FATIGUE",
+        "MEMORY IMPAIRMENT"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FROSTED CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "PROBIOTIC SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-015008",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220106",
+      "reactions": [
+        "Death",
+        "Ovarian cancer stage I"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189899",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150923",
+      "reactions": [
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "17",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE CHEERIOS HONEY NUT",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "190165",
+      "outcomes": [
+        "Hospitalization",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20150930",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "PNEUMONIA",
+        "SOMNOLENCE",
+        "VOMITING"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "88",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PRESERVISION AREDS 2 FORMULA SOFT GELS (CAPSULE, SOFT)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191451",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20151116",
+      "reactions": [
+        "COELIAC DISEASE",
+        "DIARRHOEA",
+        "HYPERSENSITIVITY",
+        "PAIN"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "BIOTIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189939",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150924",
+      "reactions": [
+        "COELIAC DISEASE",
+        "MALAISE"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "30",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "190258",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20151002",
+      "reactions": [
+        "JOINT SWELLING",
+        "OEDEMA PERIPHERAL",
+        "SWELLING FACE"
+      ],
+      "date_started": "20150903",
+      "consumer": {
+        "age": "21",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "VITAMIN B12 500 MCG 5F3 TABLET",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190801",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150909",
+      "reactions": [
+        "DIARRHOEA",
+        "GASTRIC DISORDER",
+        "VOMITING"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOES ARUGLA PIZZA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-007231",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20230331",
+      "reactions": [
+        "Endometrial cancer"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "57",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-004857",
+      "outcomes": [
+        "Death",
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20180316",
+      "reactions": [
+        "Death",
+        "Ovarian cancer metastatic"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189732",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150917",
+      "reactions": [
+        "COELIAC DISEASE"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "14",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS GLUTEN FREE",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "189813",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150921",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "COELIAC DISEASE",
+        "HYPERSENSITIVITY",
+        "MALAISE"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS GLUTEN FREE HONEY NUT",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "QUERCETIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2017-CFS-000083",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20170911",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-015593",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220107",
+      "reactions": [
+        "Ovarian cancer stage IV"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190697",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20151019",
+      "reactions": [
+        "ARTHRALGIA",
+        "DYSPNOEA",
+        "HYPERSENSITIVITY",
+        "PRURITUS",
+        "PYREXIA",
+        "RASH ERYTHEMATOUS",
+        "RASH PAPULAR",
+        "RASH PRURITIC"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BOTANIC CHOICE #739 COLON CLEAR FORMULA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "BOTANIC CHOICE MSM (METHLYSULFONYLMETHANE)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "BOTANIC CHOICE HERBAL LUNG FORMULA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "BOTANIC CHOICE HERBAL 9 ESSENTIALS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "197849",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150914",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "APPETITE DISORDER",
+        "DECREASED APPETITE",
+        "NAUSEA",
+        "Product contamination physical"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "28",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS  CINNAMON TOAST CRUNCH CRISPY, SWEETENED WHOLE WHEAT AND RICE CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "190561",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150909",
+      "reactions": [
+        "DIARRHOEA",
+        "GASTRIC DISORDER",
+        "VOMITING"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOES ARUGLA PIZZA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2020-CFS-003376",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20200311",
+      "reactions": [
+        "Peritoneal carcinoma metastatic"
+      ],
+      "date_started": "20150904",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190482",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151013",
+      "reactions": [
+        "ANAPHYLACTIC REACTION",
+        "BLOOD PRESSURE INCREASED",
+        "DYSPNOEA",
+        "HYPERSENSITIVITY",
+        "LIP SWELLING",
+        "THROAT TIGHTNESS"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "53",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SUNDOWN NATURALS, FISH OIL 1000MG, WITH OMEGA-3 300MG SOFTGELS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190032",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150925",
+      "reactions": [
+        "COELIAC DISEASE"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "28",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190464",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151008",
+      "reactions": [
+        "RASH"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GNC BODYLAB - 7",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "GNC VITAPAK",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189469",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150908",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "VOMITING"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "44",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BLUE BELL ICE CREAM",
+          "industry_code": "13",
+          "industry_name": "Ice Cream Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "189771",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150918",
+      "reactions": [
+        "ABDOMINAL DISCOMFORT",
+        "EMOTIONAL DISTRESS",
+        "RASH"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "17",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "189921",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150918",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "COELIAC DISEASE",
+        "DIARRHOEA",
+        "HYPERSENSITIVITY",
+        "Product label issue"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHEERIOS GLUTEN FREE",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "189560",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150911",
+      "reactions": [
+        "COELIAC DISEASE",
+        "DIARRHOEA",
+        "NAUSEA"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "44",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MARIANI CRYSTALLIZED GINGER",
+          "industry_code": "25",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "190596",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20151013",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN UPPER",
+        "DIARRHOEA"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "28",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "IRON",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FOLIC ACID",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190717",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "Erythema",
+        "Pruritus",
+        "Skin discolouration",
+        "Urticaria"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HARRY & DAVID MOOSE MUNCH DARK CHOCOLATE DELICIOUSLY POPCORN",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "HARRY & DAVID MOOSE MUNCH DARK CHOCOLATE DELICIOUSLY POPCORN",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "189892",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150923",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "SYNCOPE",
+        "VOMITING"
+      ],
+      "date_started": "20150905",
+      "consumer": {
+        "age": "72",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS GLUTEN FREE CHEERIOS CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191713",
+      "outcomes": [
+        "Death",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151125",
+      "reactions": [
+        "CARDIAC ARREST",
+        "CARDIAC FAILURE",
+        "Death",
+        "MUSCLE SPASMS"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "91",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PURITANS PRIDE RED YEAST RICE 600 MG WITH POLICOSANOL RAPID RELEASE CAPSULES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "214519",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20170628",
+      "reactions": [
+        "Dermatitis contact",
+        "Pruritus"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PANTENE SHAMPOOS",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "calcium with vitamin D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Centrum Silver",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "192140",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20151006",
+      "reactions": [
+        "ABDOMINAL DISCOMFORT",
+        "ABDOMINAL PAIN",
+        "VOMITING"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "18",
+        "age_unit": "month(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HAPPYTOT LOVE MY VEGGIES VEGGIE & FRUIT BLEND, BANNANA, BEETS SQUASH AND BLUEBERRIES",
+          "industry_code": "21",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "189874",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150922",
+      "reactions": [
+        "ORAL DISCOMFORT",
+        "PAIN"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "38",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHERRIOS - GLUTEN FREE",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FISH OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MAGNESIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN B12",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189960",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150922",
+      "reactions": [
+        "RASH"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS ORIGINAL CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FISH OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MAGNESIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN B12",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189517",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "BLADDER IRRITATION",
+        "BURNING SENSATION"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CVS SENSITIVE BABY WIPE",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "191524",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20151119",
+      "reactions": [
+        "BACTERIAL INFECTION",
+        "DYSURIA",
+        "PAIN IN EXTREMITY",
+        "VULVOVAGINAL BURNING SENSATION",
+        "VULVOVAGINAL INJURY",
+        "VULVOVAGINAL PAIN"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189961",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150922",
+      "reactions": [
+        "GASTRIC DISORDER",
+        "HEADACHE"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "17",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FISH OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MAGNESIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN B12",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "189468",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150908",
+      "reactions": [
+        "DIARRHOEA",
+        "FLATULENCE",
+        "FOOD POISONING",
+        "MUSCLE SPASMS",
+        "NAUSEA"
+      ],
+      "date_started": "20150906",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LACTAID FAST ACT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "198576",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20160714",
+      "reactions": [
+        "PHARYNGEAL OEDEMA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE A DAY WOMEN'S 50+ HEALTHY ADVANTAGE (MULTIVITAMINS + MINERALS) FILM-COATED TABLET",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN B NOS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191187",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150914",
+      "reactions": [
+        "DYSGEUSIA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "AZAR NUT COMPANY RAW PINE NUTS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "190127",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "CONFUSIONAL STATE",
+        "DERMATITIS HERPETIFORMIS",
+        "DIARRHOEA",
+        "INSOMNIA",
+        "URTICARIA"
+      ],
+      "date_started": "20150907",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN-FREE HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "193552",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20160210",
+      "reactions": [
+        "CONVULSION"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "18",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CATALYST - NONSPECIFIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "MANGO STRAWBERRY SPARK-NONSPECIFIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERBAL CLEANSE - NONSPECIFIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "FIBER DRINK - NONSPECIFIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190135",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "GASTROINTESTINAL DISORDER",
+        "HYPERSENSITIVITY"
+      ],
+      "date_started": "20150907",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS FROSTED CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GENERAL MILLS MULTI GRAIN CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "190212",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151001",
+      "reactions": [
+        "CONVULSION"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "18",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CATALYST",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "MANGO STRAWBERRY - SPARK STICK PACK",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERBAL CLEANSES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "FIBER DRINK",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2019-CFS-010983",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20191031",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189950",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150924",
+      "reactions": [
+        "DIARRHOEA",
+        "NAUSEA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "10",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "207992",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150908",
+      "reactions": [
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "MALAISE",
+        "PYREXIA",
+        "Product taste abnormal",
+        "VOMITING"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "2",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HOSTESS  MINI MUFFINS BLUEBERRY",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "190101",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "CONFUSIONAL STATE",
+        "DERMATITIS HERPETIFORMIS",
+        "DIARRHOEA",
+        "INSOMNIA",
+        "URTICARIA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN-FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "191480",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20151117",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "PAIN",
+        "SYNCOPE"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAIRY ZYME CAPS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191695",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150914",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "Adverse reaction",
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BOLTHOUSE FARMS, GREEN GOODNESS, PACKED WITH ANTIOXIDANTS A & C",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "189893",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150923",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "PURGING"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN-FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "K2 PROBIOTIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190109",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "GASTROINTESTINAL DISORDER",
+        "HYPERSENSITIVITY"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS FROSTED CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GENERAL MILLS MULTI GRAIN CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "190245",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150908",
+      "reactions": [
+        "DIABETES MELLITUS",
+        "VOMITING"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SCHNUCKS HAWAIIAN SWEET ROLLS",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "190242",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "DIARRHOEA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "78",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LANGERS MANGO NECTAR JUICE",
+          "industry_code": "21",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "190142",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150929",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ARTHRALGIA",
+        "COELIAC DISEASE",
+        "FLATULENCE"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "42",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "190126",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "CONFUSIONAL STATE",
+        "DERMATITIS HERPETIFORMIS",
+        "DIARRHOEA",
+        "INSOMNIA",
+        "URTICARIA"
+      ],
+      "date_started": "20150907",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GLUTEN-FREE CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "195965",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20160504",
+      "reactions": [
+        "CHEST PAIN",
+        "CHEST X-RAY ABNORMAL",
+        "COMPUTERISED TOMOGRAM ABNORMAL",
+        "DISCOMFORT",
+        "DYSPNOEA",
+        "MUSCLE SPASMS",
+        "PLEURAL EFFUSION",
+        "PNEUMONIA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WEIDER RED YEAST RICE PLUS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191104",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150914",
+      "reactions": [
+        "DYSGEUSIA"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "AZAR NUT COMPANY RAW PINE NUTS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "189808",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150921",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "HYPERSENSITIVITY",
+        "ORAL DISORDER",
+        "SKIN LESION"
+      ],
+      "date_started": "20150907",
+      "consumer": {
+        "age": "49",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MAGNESIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "190134",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "GASTROINTESTINAL DISORDER",
+        "HYPERSENSITIVITY"
+      ],
+      "date_started": "20150907",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS FROSTED CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GENERAL MILLS MULTI GRAIN CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "198094",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20160701",
+      "reactions": [
+        "BLOOD TEST ABNORMAL",
+        "CARDIAC ARREST",
+        "GASTRIC DISORDER",
+        "INTESTINAL OBSTRUCTION",
+        "PANCREATIC DISORDER"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ALL DAY ENERGY GREENS?",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "191992",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150908",
+      "reactions": [
+        "NAUSEA",
+        "PRURITUS",
+        "Product contamination microbial",
+        "VOMITING"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SWISS, PREMIUM SWEET TEA, SOUTHERN STYLE",
+          "industry_code": "31",
+          "industry_name": "Coffee/Tea"
+        }
+      ]
+    },
+    {
+      "report_number": "190139",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20150929",
+      "reactions": [
+        "HYPERSENSITIVITY"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "195360",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "CARDIAC FIBRILLATION",
+        "DIZZINESS",
+        "DYSGEUSIA",
+        "Food poisoning",
+        "HYPOAESTHESIA",
+        "PARAESTHESIA",
+        "RASH ERYTHEMATOUS",
+        "SWELLING",
+        "VISION BLURRED"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SEARED AHI TUNA",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "190249",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20151001",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN UPPER",
+        "DIARRHOEA"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-006076",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20180420",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2020-CFS-009607",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20200929",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "190094",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150928",
+      "reactions": [
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "43",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HONEY NUT CHEERIOS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-012975",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20210908",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189867",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150922",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "DIARRHOEA",
+        "FLATULENCE",
+        "HEADACHE"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "34",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GENERAL MILLS GLUTEN FREE HONEY NUT CHEERIOS CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "189518",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "DYSGEUSIA"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "36",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "THERABREATH",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "189593",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20150910",
+      "reactions": [
+        "BLOOD CALCIUM INCREASED",
+        "BLOOD IRON INCREASED",
+        "CONSTIPATION",
+        "MEDICAL DEVICE COMPLICATION",
+        "VITAMIN D DECREASED"
+      ],
+      "date_started": "20150908",
+      "consumer": {
+        "age": "79",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CENTRUM SILVER WOMEN'S 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GLUCERNA (AMINO ACIDS NOS, CARTHAMUS TINCTORIUS OIL, FRUCTOSE, GLYCINE MAX SEED OIL, MINERALS NOS, VITAMINS NOS)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    }
+  ]
+}

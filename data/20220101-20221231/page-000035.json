@@ -1,0 +1,2832 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-07-07",
+    "results": {
+      "skip": 0,
+      "limit": 100,
+      "total": 5723
+    }
+  },
+  "results": [
+    {
+      "report_number": "2022-CFS-013433",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220705",
+      "reactions": [
+        "Diarrhoea",
+        "Irritability"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "21",
+        "age_unit": "month(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LENTILS + LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010120",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20220623",
+      "reactions": [
+        "Arthralgia",
+        "Diarrhoea",
+        "Hepatitis",
+        "Nausea",
+        "Transaminases increased"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "34",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LEEK AND LENTILS CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009197",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220602",
+      "reactions": [
+        "Foreign body"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CITRACAL MAXIMUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008447",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010165",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220624",
+      "reactions": [
+        "Abdominal pain upper",
+        "Back pain",
+        "Chest pain",
+        "Cholecystectomy",
+        "Gallbladder disorder",
+        "Pyrexia"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST CRUMBLES",
+          "industry_code": "18",
+          "industry_name": "Vegetable Protein Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-012546",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008424",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Diarrhoea",
+        "Headache",
+        "Lethargy"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NO SUGAR PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin supplements",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008611",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220523",
+      "reactions": [
+        "Abdominal pain upper"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "15.3",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008826",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Salmonellosis"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NO SUGAR ADDED PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008734",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Malaise"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "43",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY AND CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vit B",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Flax oil",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009533",
+      "outcomes": [
+        "Hospitalization",
+        "Disability",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20220612",
+      "reactions": [
+        "Abdominal pain"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CRUNCHY PEANUT BUTTER TO GO",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008794",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Abdominal discomfort",
+        "Decreased appetite",
+        "Diarrhoea",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "35",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-007159",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20230321",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "73",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008733",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Malaise",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008499",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008582",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Abdominal pain upper",
+        "Chills",
+        "Diarrhoea",
+        "Mucous stools"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "42",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008541",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Burning sensation",
+        "Rash"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "30",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "THE HONEY POT SENSITIVE FOAMING WASH",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-007951",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20230606",
+      "reactions": [
+        "Exposure to chemical pollution",
+        "Peritoneal mesothelioma malignant"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009138",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220531",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Lethargy"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "67",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NATURAL CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008675",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Anxiety",
+        "Chest discomfort",
+        "Nausea",
+        "Tachycardia",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SUN STATE HEMP DELTA 8 CBD GUMMIES",
+          "industry_code": "33",
+          "industry_name": "Candy W/O Choc/Special/Chew Gum"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008770",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Gastroenteritis salmonella",
+        "Muscle spasms",
+        "Nausea",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF REDUCED FAT PEANUT BUTTER SPREAD",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "probiotic",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "melatonin",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "B12",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008732",
+      "outcomes": [
+        "Required Intervention"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Salmonellosis"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "26",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER CREAMY TO GO CUPS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011639",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010431",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Abdominal discomfort",
+        "Diarrhoea"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008211",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220523",
+      "reactions": [
+        "Abdominal pain upper",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011608",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Abdominal discomfort",
+        "Decreased appetite",
+        "Diarrhoea",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "8",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008426",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Salmonellosis"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "31.1",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009038",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Diarrhoea",
+        "Pyrexia",
+        "Salmonellosis",
+        "Vomiting"
+      ],
+      "date_started": "20220523",
+      "consumer": {
+        "age": "10",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-012083",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220803",
+      "reactions": [
+        "Abdominal pain",
+        "Cholestasis",
+        "Decreased appetite",
+        "Fatigue",
+        "Hepatotoxicity",
+        "Jaundice",
+        "Malaise",
+        "Pain",
+        "Pyrexia"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LENTIL PLUS LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009317",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Malaise",
+        "Nausea",
+        "Neck pain",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "6",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LUCKY CHARMS FROSTED TOASTED OAT CEREAL WITH MARSHMALLOWS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008735",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Abdominal discomfort",
+        "Diarrhoea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011311",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain upper",
+        "Chills",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Malaise",
+        "Myalgia",
+        "Neuralgia",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "41",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LUCKY CHARMS FROSTED TOASTED OAT CEREAL WITH MARSHMALLOWS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008911",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Diarrhoea",
+        "Muscle spasms",
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "12",
+        "age_unit": "month(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-003844",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220704",
+      "reactions": [
+        "Product package associated injury"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "45",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008958",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Diarrhoea",
+        "Pain",
+        "Pyrexia",
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-002113",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220526",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Pyrexia"
+      ],
+      "date_started": "20220524",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011252",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20220719",
+      "reactions": [
+        "Hepatitis",
+        "Pyrexia"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "58.2",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH THYME AND LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALCIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-003447",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220620",
+      "reactions": [
+        "Neoplasm malignant"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "71",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010175",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220624",
+      "reactions": [
+        "Hypersensitivity",
+        "Hyperventilation",
+        "Neuropathy peripheral",
+        "Panic attack"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LIFE EXTENSION BIOACTIVE COMPLETE B COMPLEX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008666",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Abdominal pain upper",
+        "Chills",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008748",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "2",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008747",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Muscle spasms",
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "66.8",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009396",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220607",
+      "reactions": [
+        "Asphyxia",
+        "Choking"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PRESERVISION AREDS 2",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-012566",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "13",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011310",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain upper",
+        "Chills",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Malaise",
+        "Myalgia",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "3",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LUCKY CHARMS FROSTED TOASTED OAT CEREAL WITH MARSHMALLOWS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010395",
+      "outcomes": [
+        "Disability",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220629",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Fatigue",
+        "Insomnia",
+        "Peripheral coldness",
+        "Pyrexia"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST LEEK AND LENTIL CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008934",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Abdominal pain upper",
+        "Gastrointestinal pain",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "38.7",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009029",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "51.6",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008777",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Chest discomfort",
+        "Palpitations"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "55",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "REAL SALT",
+          "industry_code": "28",
+          "industry_name": "Spices, Flavors And Salts"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "multivitamins",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008754",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "42",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008858",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220526",
+      "reactions": [
+        "Diarrhoea",
+        "Headache",
+        "Malaise"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NATURAL CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin multi-supplements",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008670",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220524",
+      "reactions": [
+        "Swollen tongue"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GREENWISE LOWFAT MILK 1%",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011179",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220718",
+      "reactions": [
+        "Decreased appetite",
+        "Dyspepsia",
+        "Fatigue",
+        "Gastrointestinal pain",
+        "Jaundice",
+        "Nausea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LENTIL AND LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009050",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Decreased appetite",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "26.4",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF EXTRA CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009024",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "36.5",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008988",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-005477",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20221031",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008787",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Oropharyngeal pain",
+        "Pyrexia",
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER REDUCED FAT",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009132",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220531",
+      "reactions": [
+        "Burning sensation"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SANTITAS TOTOPOS DE MAIZ TORTILLA CHIPS",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008948",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Food poisoning",
+        "Lethargy",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008918",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Diarrhoea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "18",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NATURAL CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011312",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain upper",
+        "Chills",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Malaise",
+        "Myalgia",
+        "Vomiting"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "5",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LUCKY CHARMS FROSTED TOASTED OAT CEREAL WITH MARSHMALLOWS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-007631",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20230517",
+      "reactions": [
+        "Endometrial cancer",
+        "Ovarian cancer stage II"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-012561",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Diarrhoea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NATURAL CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008736",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Gastrointestinal disorder",
+        "Salmonellosis"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "36.9",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008817",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Abdominal pain",
+        "Haematochezia"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-012792",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea"
+      ],
+      "date_started": "20220524",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008924",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Abdominal pain upper",
+        "Cold sweat",
+        "Diarrhoea",
+        "Headache"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "39",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER TO GO",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008883",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220526",
+      "reactions": [
+        "Diarrhoea",
+        "Disturbance in attention",
+        "Malaise",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BRAMI ITALIAN SNACKING LUPINI BEANS",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009073",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Feeling cold",
+        "Oesophagitis",
+        "Retching",
+        "Tremor"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ALLULOSE",
+          "industry_code": "36",
+          "industry_name": "Food Sweeteners (Nutritive)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "NAC. Vit b",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008876",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220526",
+      "reactions": [
+        "Burning sensation",
+        "Hypersensitivity",
+        "Throat tightness"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "25",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ORGANIC SEMI-SWEET CHOCOLATE BAKING CHIPS",
+          "industry_code": "34",
+          "industry_name": "Choc/Cocoa Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-013732",
+      "outcomes": [
+        "Disability",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220907",
+      "reactions": [
+        "Abdominal pain",
+        "Asthenia",
+        "Chromaturia",
+        "Cold sweat",
+        "Confusional state",
+        "Decreased appetite",
+        "Dizziness",
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Pain",
+        "Pruritus",
+        "Pyrexia",
+        "Rash",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LENTIL PLUS LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-011190",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Disability",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220718",
+      "reactions": [
+        "Chills",
+        "Chromaturia",
+        "Decreased appetite",
+        "Dehydration",
+        "Faeces discoloured",
+        "Gastrooesophageal reflux disease",
+        "Headache",
+        "Hyperhidrosis",
+        "Jaundice",
+        "Nausea",
+        "Pruritus"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "50.7",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST LENTILS AND LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-005774",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220823",
+      "reactions": [
+        "Gingival pain",
+        "Tooth fracture"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CRUNCH N' MUNCH CARAMEL FLAVOR, POPCORN AND PEANUTS",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009048",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "84",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER TO GO",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009120",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220531",
+      "reactions": [
+        "Abdominal pain upper",
+        "Nausea"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "62.4",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008790",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Malaise",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009008",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Abdominal pain upper",
+        "Dehydration",
+        "Diarrhoea",
+        "Hyperhidrosis",
+        "Muscle spasms",
+        "Nausea"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-016109",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20251005",
+      "reactions": [
+        "Crying",
+        "Headache",
+        "Illness"
+      ],
+      "date_started": "20220525",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SIMILAC INFANT FORMULA",
+          "industry_code": "40P",
+          "industry_name": "Powder Formula INFANT FORMULA"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009032",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Haematochezia",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "16",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NATURAL PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009305",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "65",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "vitamin C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "multivitamins",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "coq10",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin B",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Magnesium",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010520",
+      "outcomes": [
+        "Hospitalization",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20220701",
+      "reactions": [
+        "Asthenia",
+        "Blood potassium decreased",
+        "Blood sodium decreased",
+        "Nausea",
+        "Paraesthesia",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRUVY TRU",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRUVY VY BOOST",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008926",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009304",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20220605",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Gastroenteritis salmonella",
+        "Haematochezia",
+        "Hypotension",
+        "Loss of consciousness",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "56",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008780",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Gastrointestinal disorder"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "30",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "UNCLE CHIPPS SPICY TREAT",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009005",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Abdominal discomfort",
+        "Flatulence",
+        "Haematochezia",
+        "Malaise",
+        "Myalgia"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUTBUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ZINC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Vitamin C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "INSTAFLEX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FISH OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008870",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Erythema",
+        "Pain",
+        "Rash"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "55.4",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "STRIVECTIN TIGHTEN & LIFT ADVANCED NECK CREAM",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008808",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Dizziness",
+        "Nausea",
+        "Salmonellosis"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008822",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Haematochezia",
+        "Headache",
+        "Lethargy",
+        "Nausea",
+        "Pain in extremity",
+        "Pyrexia"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "53",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CHUCKY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009121",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220531",
+      "reactions": [
+        "Abdominal discomfort"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "71.3",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008807",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Salmonellosis"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF EXTRA CRUNCHY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010132",
+      "outcomes": [
+        "Hospitalization",
+        "Disability",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20220624",
+      "reactions": [
+        "Blood bilirubin increased",
+        "Headache",
+        "Hepatic enzyme increased",
+        "Jaundice",
+        "Pyrexia",
+        "Tremor"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LENTIL AND LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008959",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Anxiety",
+        "Chest pain",
+        "Fear"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "31.7",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATURAL GREENS DELTA 8 HEMP GUMMIES",
+          "industry_code": "33",
+          "industry_name": "Candy W/O Choc/Special/Chew Gum"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Daily men's vitamin generic",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009794",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220525",
+      "reactions": [
+        "Diarrhoea",
+        "Gastrointestinal disorder"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "30",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "UNCLE CHIPPS SPICY TREAT",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008943",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Diarrhoea",
+        "Salmonellosis",
+        "Vomiting"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "age": "34",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-012952",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Abdominal pain"
+      ],
+      "date_started": "20220525",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF PEANUT BUTTER TO GO",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010446",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220629",
+      "reactions": [
+        "Abdominal pain upper",
+        "Gastrointestinal disorder",
+        "Hepatic enzyme increased"
+      ],
+      "date_started": "20220526",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAILY HARVEST FRENCH LENTIL AND LEEK CRUMBLES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-008972",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220527",
+      "reactions": [
+        "Abdominal pain upper",
+        "Vomiting"
+      ],
+      "date_started": "20220526",
+      "consumer": {
+        "age": "20",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF NATURAL CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "Whey Protein",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010686",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20220707",
+      "reactions": [
+        "Hallucination",
+        "Hyperhidrosis",
+        "Overdose",
+        "Pallor"
+      ],
+      "date_started": "20220526",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SOUR PATCH RINGS GUMMIES",
+          "industry_code": "33",
+          "industry_name": "Candy W/O Choc/Special/Chew Gum"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-009025",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20220530",
+      "reactions": [
+        "Diarrhoea",
+        "Dizziness",
+        "Hyperhidrosis",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20220526",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JIF CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    }
+  ]
+}

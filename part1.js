@@ -1,4 +1,5 @@
-const { mkdir, writeFile } = require("node:fs/promises");
+const { mkdir, writeFile, rename } = require("node:fs/promises");
+const { setTimeout: sleep } = require("node:timers/promises");
 const path = require("node:path");
 
 const apiUrl = "https://api.fda.gov/food/event.json";
@@ -6,6 +7,13 @@ const defaultStart = "20020101";
 const defaultEnd = "20260101";
 const pageLimit = 100;
 const requestTimeout = 30_000;
+const requestInterval = 300;
+const maxRetries = 3;
+const retryStatuses = new Set([429, 500, 502, 503, 504]);
+const networkCodes = new Set([
+  "ECONNRESET", "ECONNREFUSED", "ETIMEDOUT", "EAI_AGAIN", "ENOTFOUND", "ENETUNREACH", "EHOSTUNREACH",
+  "UND_ERR_CONNECT_TIMEOUT", "UND_ERR_HEADERS_TIMEOUT", "UND_ERR_BODY_TIMEOUT", "UND_ERR_SOCKET",
+]);
 
 function checkDate(value, label) {
   if (typeof value !== "string" || !/^\d{8}$/.test(value)) {
@@ -49,6 +57,10 @@ function getConcurrency(value = 3) {
     throw new Error("CONCURRENCY_LIMIT must be a positive integer.");
   }
   return limit;
+}
+
+function getPageName(pageNumber) {
+  return `page-${String(pageNumber).padStart(6, "0")}.json`;
 }
 
 function getPageUrl(startDate, endDate, apiKey) {
@@ -155,14 +167,93 @@ function getNextUrl(link, startDate, endDate, apiKey) {
   return nextUrl;
 }
 
-async function fetchPage(url, fetchData) {
+function getRetryDelay(value, now) {
+  const text = value?.trim() || "";
+  // Retry-After can be whole seconds or an HTTP date, never a fractional number.
+  // Older HTTP dates omit the timezone but still mean GMT.
+  const dateText = text.endsWith(" GMT") ? text : `${text} GMT`;
+  const delay = /^\d+$/.test(text) ? Number(text) * 1000 :
+    /^[A-Za-z]+,? /.test(text) ? Date.parse(dateText) - now : 0;
+  return Number.isSafeInteger(delay) && delay > 0 ? delay : 0;
+}
+
+function isNetworkError(error) {
+  if (!error) {
+    return false;
+  }
+  return networkCodes.has(error.code) || isNetworkError(error.cause) ||
+    (error instanceof AggregateError && error.errors.some(isNetworkError));
+}
+
+function createRequester({ fetchData = globalThis.fetch, now = Date.now, wait = sleep, random = Math.random, log = console.warn } = {}) {
+  let queue = Promise.resolve();
+  let nextStart = 0;
+  let cooldown = 0;
+
+  async function waitUntil(deadline) {
+    while (deadline > now()) {
+      // Long Retry-After values must not overflow Node's timer and fire immediately.
+      await wait(Math.min(deadline - now(), 2_147_483_647));
+    }
+  }
+
+  function waitForStart() {
+    const turn = queue.then(async () => {
+      // Another worker can extend the cooldown while this worker is asleep.
+      while (Math.max(nextStart, cooldown) > now()) {
+        await waitUntil(Math.max(nextStart, cooldown));
+      }
+      nextStart = now() + requestInterval;
+    });
+    queue = turn.catch(() => {});
+    return turn;
+  }
+
+  return async function requestPage(url, label) {
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      await waitForStart();
+      // Waiting for admission does not use up this attempt's network timeout.
+      const signal = AbortSignal.timeout(requestTimeout);
+      try {
+        return await fetchPage(url, fetchData, signal);
+      } catch (error) {
+        const timedOut = error.name === "TimeoutError" || (signal.aborted && error.name === "AbortError");
+        const temporary = error.status ? retryStatuses.has(error.status) : timedOut || isNetworkError(error);
+        if (!temporary) {
+          await error.response?.body?.cancel().catch(() => {});
+          throw error;
+        }
+        const delay = Math.max(1000 * 2 ** attempt + Math.floor(random() * 250), getRetryDelay(error.retryAfter, now()));
+        const retryAt = now() + delay;
+        if (error.status === 429) {
+          cooldown = Math.max(cooldown, retryAt);
+        }
+        // Publish the cooldown immediately, then release the unused HTTP error body.
+        await error.response?.body?.cancel().catch(() => {});
+        const reason = error.status ? `HTTP ${error.status}` : timedOut ? "request timeout" : "network failure";
+        if (attempt === maxRetries) {
+          throw new Error(`FDA request failed after ${attempt + 1} attempts (${reason}).`, { cause: error });
+        }
+        log(`${label}: ${reason}; retry ${attempt + 1}/${maxRetries} in at least ${delay} ms.`);
+        // Backoff holds this worker, but does not block unrelated workers from the gate.
+        await waitUntil(retryAt);
+      }
+    }
+  };
+}
+
+async function fetchPage(url, fetchData, signal) {
   const response = await fetchData(url, {
     headers: { Accept: "application/json" },
-    signal: AbortSignal.timeout(requestTimeout),
+    signal,
     redirect: "error",
   });
   if (!response.ok && response.status !== 404) {
-    throw new Error(`FDA request failed with HTTP ${response.status}.`);
+    const error = new Error(`FDA request failed with HTTP ${response.status}.`);
+    error.status = response.status;
+    error.retryAfter = response.headers.get("retry-after");
+    error.response = response;
+    throw error;
   }
 
   let pageData;
@@ -194,6 +285,8 @@ async function downloadWindow({
   outputDir = path.join(__dirname, "data", `${startDate}-${endDate}`),
   apiKey,
   fetchData = globalThis.fetch,
+  requestPage = createRequester({ fetchData }),
+  runIds = new Set(),
 } = {}) {
   let url = getPageUrl(startDate, endDate, apiKey);
   // Claim a fresh directory before fetching so separate runs cannot mix their pages.
@@ -208,7 +301,7 @@ async function downloadWindow({
 
   while (url) {
     cursors.add(url.searchParams.get("search_after"));
-    const { pageData, link, noMatches } = await fetchPage(url, fetchData);
+    const { pageData, link, noMatches } = await requestPage(url, `${startDate}-${endDate} page ${pageCount + 1}`);
     const nextUrl = getNextUrl(link, startDate, endDate, apiKey);
     if (nextUrl && cursors.has(nextUrl.searchParams.get("search_after"))) {
       throw new Error("FDA repeated a pagination cursor.");
@@ -240,9 +333,14 @@ async function downloadWindow({
       if (reportIds.has(report.report_number)) {
         throw new Error(`Duplicate report_number ${report.report_number} across pages.`);
       }
+      if (runIds.has(report.report_number)) {
+        throw new Error(`Duplicate report_number ${report.report_number} across windows.`);
+      }
     }
+    // Reserve IDs before awaiting the write so another worker cannot accept the same report.
+    pageData.results.forEach(report => runIds.add(report.report_number));
 
-    const fileName = `page-${String(pageCount + 1).padStart(6, "0")}.json`;
+    const fileName = getPageName(pageCount + 1);
     // wx also protects against an unexpected file appearing during this run.
     await writeFile(path.join(outputDir, fileName), `${JSON.stringify(pageData, null, 2)}\n`, { flag: "wx" });
     pageData.results.forEach(report => reportIds.add(report.report_number));
@@ -263,12 +361,29 @@ async function downloadAll({
   concurrencyLimit = 3,
   apiKey,
   fetchData = globalThis.fetch,
+  requestPage = createRequester({ fetchData }),
 } = {}) {
   const limit = getConcurrency(concurrencyLimit);
   const windows = getWindows();
   await mkdir(path.dirname(outputDir), { recursive: true });
   await mkdir(outputDir);
 
+  const manifestPath = path.join(outputDir, "manifest.json");
+  const manifest = {
+    schemaVersion: 1,
+    complete: false,
+    startDate: defaultStart,
+    endDate: defaultEnd,
+    startedAt: new Date().toISOString(),
+    pageLimit,
+    concurrencyLimit: limit,
+    windowCount: windows.length,
+    windows,
+  };
+  // A failed or interrupted run keeps this marker instead of appearing ready for analysis.
+  await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, { flag: "wx" });
+
+  const runIds = new Set();
   const results = new Array(windows.length);
   let nextIndex = 0;
   let failure = null;
@@ -284,7 +399,8 @@ async function downloadAll({
           ...window,
           outputDir: path.join(outputDir, `${window.startDate}-${window.endDate}`),
           apiKey,
-          fetchData,
+          requestPage,
+          runIds,
         });
       } catch (error) {
         if (!failure) {
@@ -306,7 +422,29 @@ async function downloadAll({
   const savedCount = results.reduce((sum, result) => sum + result.savedCount, 0);
   const total = results.reduce((sum, result) => sum + result.total, 0);
   const pageCount = results.reduce((sum, result) => sum + result.pageCount, 0);
-  return { outputDir, windowCount: results.length, savedCount, total, pageCount, complete: true };
+  if (savedCount !== total || runIds.size !== total) {
+    throw new Error(`Incomplete run: saved ${savedCount} reports with ${runIds.size} unique IDs; expected ${total}.`);
+  }
+  const summary = { windowCount: results.length, savedCount, total, pageCount, complete: true };
+  const completedManifest = {
+    ...manifest,
+    ...summary,
+    completedAt: new Date().toISOString(),
+    uniqueCount: runIds.size,
+    windows: results.map((result, i) => ({
+      ...windows[i],
+      savedCount: result.savedCount,
+      total: result.total,
+      pageCount: result.pageCount,
+      files: Array.from({ length: result.pageCount }, (_, page) =>
+        `${windows[i].startDate}-${windows[i].endDate}/${getPageName(page + 1)}`),
+    })),
+  };
+  // Publish completion only after the full manifest is written; keep the old marker on failure.
+  const tempPath = `${manifestPath}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(completedManifest, null, 2)}\n`, { flag: "wx" });
+  await rename(tempPath, manifestPath);
+  return { outputDir, ...summary };
 }
 
 async function runDownload() {
@@ -324,4 +462,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { getWindows, getConcurrency, getPageUrl, getNextUrl, checkPage, downloadWindow, downloadAll };
+module.exports = { getWindows, getConcurrency, getPageUrl, getNextUrl, checkPage, getRetryDelay, createRequester, downloadWindow, downloadAll };

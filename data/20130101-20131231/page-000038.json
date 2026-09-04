@@ -1,0 +1,2940 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-07-07",
+    "results": {
+      "skip": 0,
+      "limit": 100,
+      "total": 5765
+    }
+  },
+  "results": [
+    {
+      "report_number": "170559",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20130926",
+      "reactions": [
+        "BLOOD CREATINE PHOSPHOKINASE INCREASED",
+        "CHEST DISCOMFORT",
+        "DYSPNOEA",
+        "HYPOKALAEMIA",
+        "MYOCARDIAL INFARCTION",
+        "SUPRAVENTRICULAR TACHYCARDIA",
+        "TROPONIN I INCREASED"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "53",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CELLUCOR SUPER HD",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CELLUCOR CLK",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170079",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130917",
+      "reactions": [
+        "MALAISE",
+        "STOMACH DISCOMFORT"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170334",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20130920",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT APPLE CINNAMON",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT BLUEBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "171300",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130904",
+      "reactions": [
+        "DIARRHOEA"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "6",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "172110",
+      "outcomes": [
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130904",
+      "reactions": [
+        "HYPERSENSITIVITY",
+        "PHARYNGEAL OEDEMA",
+        "THROAT IRRITATION"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "4",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KEEBLER E.L. FUDGE ORIGINAL BUTTER SANDWICH COOKIES",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "169931",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "BODY TEMPERATURE INCREASED",
+        "MALAISE"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI FLIP - KEY LIME",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-011532",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20231004",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "SHOWER TO SHOWER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "169923",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130912",
+      "reactions": [
+        "BACK PAIN",
+        "DIZZINESS"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "Q-HYDRATE 528",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "174386",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20140305",
+      "reactions": [
+        "MALAISE"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "21",
+        "age_unit": "year(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170585",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130926",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "NAUSEA"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI VANILLA GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169653",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20130904",
+      "reactions": [
+        "DISCOMFORT",
+        "HYPERSENSITIVITY"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "4",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "E.L. FUDGE ORIGINAL",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FLINTSTONE VITAMINS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "172675",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20131130",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "DEHYDRATION",
+        "MALAISE",
+        "NAUSEA"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI POMEGRANATE YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "PRENATAL VITAMINS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FOLIC ACID",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "169982",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130913",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "BODY TEMPERATURE INCREASED",
+        "DIARRHOEA",
+        "DIZZINESS",
+        "HEART RATE INCREASED",
+        "NAUSEA",
+        "PALLOR"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "21",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169693",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130904",
+      "reactions": [
+        "DIARRHOEA",
+        "NAUSEA"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "38",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2019-CFS-002207",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20190301",
+      "reactions": [
+        "Death",
+        "Ovarian cancer"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "39",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "169637",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20130904",
+      "reactions": [
+        "BLOOD CREATINE PHOSPHOKINASE INCREASED",
+        "OEDEMA",
+        "PAIN",
+        "RHABDOMYOLYSIS"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "30",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MAXIMUM SHRED",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ANTLER EXTREME SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170343",
+      "outcomes": [
+        "Life Threatening"
+      ],
+      "date_created": "20130920",
+      "reactions": [
+        "COUGH",
+        "DYSGRAPHIA",
+        "DYSPNOEA",
+        "PHARYNGITIS"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "77",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATURE'S BOUNTY FLAXSEED OIL 1200 MG RAPID RELEASE LIQUID SOFTGELS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170793",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20131001",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "NAUSEA"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "49",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169991",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130913",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "HEADACHE",
+        "MALAISE",
+        "NAUSEA"
+      ],
+      "date_started": "20130829",
+      "consumer": {
+        "age": "14",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170096",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130903",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BIG EASY FOODS WILD CAUGHT GULF SHRIMP, FROZEN",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170434",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130924",
+      "reactions": [
+        "AGGRESSION"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "22",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "1 . MR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "PRO-COMPLEX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYPER FX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HEMO-RAGE UL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "GNC AMP AMPLIFIED MUSCLE IGNITER 4X",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "CELL MASS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "CASE PROTEIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "ALCOHOL",
+          "industry_code": "32",
+          "industry_name": "Alcoholic Beverage"
+        }
+      ]
+    },
+    {
+      "report_number": "172117",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130910",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "MALAISE"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FOOD LION TOMATOES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "169654",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130904",
+      "reactions": [
+        "ERYTHEMA",
+        "FLUSHING",
+        "FOOD ALLERGY",
+        "RASH"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "AHI TUNA TACO",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "170087",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130910",
+      "reactions": [
+        "CHILLS",
+        "COLD SWEAT",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SMUCKERS GOOBERS PEANUT BUTTER & JELLY",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "170676",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130903",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "16",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BIG EASY FOODS WILD CAUGHT GULF SHRIMP, FROZEN",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "172787",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20131203",
+      "reactions": [
+        "BLOOD PRESSURE INCREASED",
+        "DYSGEUSIA",
+        "EAR HAEMORRHAGE"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "41",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "OREGANO OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "UVA URSI",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170105",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130918",
+      "reactions": [
+        "DIARRHOEA",
+        "DYSPEPSIA"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HUNGRY-MAN DINNER LTD EDITION SMOKIN' BACKYARD BBQ",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "170646",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130927",
+      "reactions": [
+        "DIARRHOEA",
+        "DIZZINESS",
+        "DYSPNOEA",
+        "DYSSTASIA",
+        "FAECES DISCOLOURED",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "53",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SPRING VALLEY FISH OIL 1000 MG 300 MG OMEGA-3 SOFTGELS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-004897",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211117",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "171241",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130910",
+      "reactions": [
+        "DIARRHOEA",
+        "MALAISE"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FOOD LION TOMATOES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-013358",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211230",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170479",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130906",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "HEART RATE ABNORMAL",
+        "NAUSEA",
+        "RESPIRATORY DISORDER",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK STYLE YOGURT, COCONUT FLAVOR",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2020-CFS-006477",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20200701",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170051",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130916",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DECREASED APPETITE",
+        "FLATULENCE",
+        "NAUSEA"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "40",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI KEY LIME NONFAT YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-015862",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220109",
+      "reactions": [
+        "Death",
+        "Ovarian cancer stage I"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "53",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170554",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130924",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "FLATULENCE"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "2",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI CHAMPION TUBES STRAWBERRY BLUEBERRY YOGURT BLEND",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "178157",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20140728",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "20",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DR. PEPPER",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "170081",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130917",
+      "reactions": [
+        "DIZZINESS",
+        "NAUSEA"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "46.26",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT COFFEE WITH CHOCOLATE CHIPS",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMINS FLAXSEEDOIL SUPPLEMENTS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "169840",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130909",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "FOOD POISONING",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169917",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "DIVERTICULITIS"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169895",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130910",
+      "reactions": [
+        "CHOKING",
+        "THROAT IRRITATION"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "76",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CITRACAL CALCIUM + D SLOW RELEASE 1200 (CALCIUM CITRATE, VITAMIN D, MAGNESIUM HYDROXIDE) FILM-COATED TABLET",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CENTRUM SILVER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170724",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20131001",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "MALAISE"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "45",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI COCONUT NONFAT YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169934",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "DIARRHOEA"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170557",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20130926",
+      "reactions": [
+        "BLOOD COUNT ABNORMAL",
+        "BLOOD DISORDER"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ATTAIN GC CONTROL SHAKE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-007233",
+      "outcomes": [
+        "Death",
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20230331",
+      "reactions": [
+        "Death",
+        "Ovarian cancer"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "169739",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130905",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "DYSPEPSIA",
+        "FLATULENCE",
+        "GASTROOESOPHAGEAL REFLUX DISEASE",
+        "Product taste abnormal"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI BLACK CHERRY NON-FAT GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI NON-FAT PEACH GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "171115",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20131001",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "GASTROENTERITIS VIBRIO",
+        "HEADACHE",
+        "MALAISE",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "OYSTERS",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169950",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "ABDOMINAL DISCOMFORT",
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN",
+        "DECREASED APPETITE",
+        "DIARRHOEA",
+        "FLATULENCE",
+        "FREQUENT BOWEL MOVEMENTS",
+        "PAIN",
+        "PAROSMIA",
+        "RHINORRHOEA"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "26",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI FLIPS-KEY LIME CRUMBLE",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAFUSION WOMEN'S MULTIVITAMIN - BONE AND METABOLISM SUPPORT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "171312",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130906",
+      "reactions": [
+        "ERYTHEMA",
+        "FLUSHING",
+        "HYPERSENSITIVITY",
+        "RASH"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "AHI TUNA TACOS",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170418",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130916",
+      "reactions": [
+        "DIARRHOEA"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI CARMEL PINEAPPLE NONFAT YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170008",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130913",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "VOMITING"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "2",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI CHAMPIONS YOGURT TUBES, STRAWBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169993",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130913",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN",
+        "CONSTIPATION",
+        "MALAISE"
+      ],
+      "date_started": "20130830",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI FLIPS YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170711",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130913",
+      "reactions": [
+        "VOMITING"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170404",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130910",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "GASTROINTESTINAL PAIN",
+        "MALAISE",
+        "Recalled product",
+        "TENDERNESS"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI POMEGRANATE GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170115",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "JAUNDICE"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXTREME PERFORMANCE GROUPTRI METHYL XTREME",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170492",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20130924",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "BLOOD POTASSIUM DECREASED",
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170417",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130906",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "ABNORMAL LOSS OF WEIGHT",
+        "DIARRHOEA",
+        "FATIGUE",
+        "NAUSEA",
+        "WEIGHT DECREASED"
+      ],
+      "date_started": "20130831",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT JAMMIN STRAWBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170462",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130924",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN UPPER",
+        "MALAISE",
+        "NAUSEA",
+        "SOMNOLENCE"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170677",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130927",
+      "reactions": [
+        "BALANCE DISORDER",
+        "GAIT DISTURBANCE",
+        "HEADACHE"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "60",
+        "age_unit": "year(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK STYLE YOGURT -STRAWBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "POTASSIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GREEN TEA",
+          "industry_code": "31",
+          "industry_name": "Coffee/Tea"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "DHEA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "COQ10",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CHELATED IRON",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "B12",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170691",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130919",
+      "reactions": [
+        "DIARRHOEA",
+        "MALAISE"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "6",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI KID YOGURT TUBES STRAWBERRY FLAVOR",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169945",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130913",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "FLATULENCE",
+        "NAUSEA"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170850",
+      "outcomes": [
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130930",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABORTION SPONTANEOUS",
+        "COMPLICATION OF PREGNANCY",
+        "DIARRHOEA",
+        "GASTROINTESTINAL DISORDER",
+        "NAUSEA",
+        "PAIN",
+        "VOMITING"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT, KEYLIME CRUMBLE",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170420",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130910",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "APPETITE DISORDER",
+        "DIARRHOEA",
+        "FUNGAL INFECTION"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI NONFAT GREEK YOGURT, STRAWBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "198889",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20160721",
+      "reactions": [
+        "ALOPECIA"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WEN BY CHAZ DEAN",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "STANDARD MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170067",
+      "outcomes": [
+        "Disability",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20130917",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "GASTROINTESTINAL DISORDER",
+        "VOMITING"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI KEY LIME FLIP",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170377",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130905",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "HEADACHE",
+        "NAUSEA"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170530",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "DIARRHOEA",
+        "FLATULENCE",
+        "IRRITABILITY",
+        "MALAISE"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "18",
+        "age_unit": "month(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI RASPBERRY GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170198",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20130917",
+      "reactions": [
+        "BEDRIDDEN",
+        "FATIGUE",
+        "FEELING JITTERY",
+        "HEADACHE",
+        "JOINT SWELLING",
+        "NAUSEA"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "55",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SPRING VALLEY EVENING PRIMROSE OIL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ONE-A-DAY WOMEN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "OMEGA-3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CALTRATE-D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "171344",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20131030",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "Cholera",
+        "DIARRHOEA",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "NAUSEA",
+        "PROSTATE CANCER",
+        "VOMITING"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "R&A OYSTERS RAW OYSTERS",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "169795",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130906",
+      "reactions": [
+        "DIARRHOEA",
+        "NAUSEA"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "28",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "200095",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20160812",
+      "reactions": [
+        "ALOPECIA",
+        "PRURITUS",
+        "SCAR"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "65.77",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WEN",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMINS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "BIOTIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "170375",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130924",
+      "reactions": [
+        "PRURITUS",
+        "RASH",
+        "RASH PAPULAR",
+        "URTICARIA"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "2",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170399",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130911",
+      "reactions": [
+        "DIARRHOEA",
+        "DYSPNOEA",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "HOT FLUSH",
+        "MALAISE",
+        "NAUSEA",
+        "Product taste abnormal",
+        "Recalled product"
+      ],
+      "date_started": "20130831",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI RASPBERRY GREEK YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "170075",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130917",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "DIZZINESS",
+        "VOMITING"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "3",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI CHAMPIONS TUBES",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2019-CFS-008290",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20190814",
+      "reactions": [
+        "Death",
+        "Reproductive tract disorder"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "65",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-003673",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20180302",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-014251",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20181205",
+      "reactions": [
+        "Death",
+        "Reproductive tract disorder"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-003704",
+      "outcomes": [
+        "Death",
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210412",
+      "reactions": [
+        "Death",
+        "Endometrial cancer stage III",
+        "Injury"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-003356",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211113",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "69",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-003852",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20210416",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "59.67",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "199198",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20160727",
+      "reactions": [
+        "ALOPECIA",
+        "DANDRUFF",
+        "DRY SKIN",
+        "ERYTHEMA",
+        "PRURITUS",
+        "SKIN SENSITISATION"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "19.26",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WEN ALMOND MINT CONDITIONER",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170616",
+      "outcomes": [
+        "Required Intervention",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130905",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "ABDOMINAL PAIN",
+        "APPETITE DISORDER",
+        "ASTHENIA",
+        "Adverse reaction",
+        "BODY TEMPERATURE INCREASED",
+        "FATIGUE"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI BLENDED VANILLA",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-002382",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20180212",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "56",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "180533",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20141103",
+      "reactions": [
+        "CHALAZION",
+        "PAIN",
+        "WOUND SECRETION"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIEHL'S AVOCADO EYE CREAM",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ONE A DAY VITAMINS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "IRON",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-003074",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20170628",
+      "reactions": [
+        "Fallopian tube cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170969",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization"
+      ],
+      "date_created": "20131002",
+      "reactions": [
+        "CONVULSION",
+        "DIZZINESS",
+        "FOAMING AT MOUTH",
+        "LOSS OF CONSCIOUSNESS",
+        "MUSCULOSKELETAL STIFFNESS",
+        "PERFORMANCE STATUS DECREASED",
+        "SKIN LACERATION",
+        "TENDERNESS",
+        "VOMITING"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "25.2",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "5-HOUR ENERGY EXTRA STRENGTH BERRY",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "215678",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20170721",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "212903",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20170523",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-003627",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20210413",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "56.67",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2019-CFS-005779",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20190611",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170210",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20130912",
+      "reactions": [
+        "CHOKING",
+        "FOREIGN BODY TRAUMA",
+        "PHARYNGITIS"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CENTRUM SILVER WOMEN'S 50+ (MULTIMINERALS, MULTIVITAMINS) TABLET",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-003490",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20170628",
+      "reactions": [
+        "Death",
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "170463",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130924",
+      "reactions": [
+        "BODY TEMPERATURE INCREASED",
+        "EYE SWELLING",
+        "URTICARIA"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "5",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI YOGURT",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "216301",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20170804",
+      "reactions": [
+        "Death",
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "78",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "214029",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20170602",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-006685",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210615",
+      "reactions": [
+        "Death",
+        "Injury",
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "213549",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20170602",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "169808",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20130906",
+      "reactions": [
+        "DIARRHOEA",
+        "FATIGUE",
+        "HEADACHE",
+        "NAUSEA"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHOBANI CHAMPION TUBES ROCKIN' BLUEBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-013531",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20181114",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "173910",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20140127",
+      "reactions": [
+        "DIABETES MELLITUS",
+        "DIVERTICULITIS"
+      ],
+      "date_started": "20130901",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BENEFIBER UNKNOWN (NCH) (UNKNOWN) UNKNOWN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    }
+  ]
+}

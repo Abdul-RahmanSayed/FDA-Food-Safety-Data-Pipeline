@@ -1,0 +1,2899 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-07-07",
+    "results": {
+      "skip": 0,
+      "limit": 100,
+      "total": 3742
+    }
+  },
+  "results": [
+    {
+      "report_number": "2025-CFS-001259",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Injury"
+      ],
+      "date_created": "20250128",
+      "reactions": [
+        "Blood urine present",
+        "Injury"
+      ],
+      "date_started": "20250106",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE A DAY MENS COMPLETE MULTI VITAMIN SUPPORT FOR 6 KEY VITAL FUNCTIONS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000265",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250108",
+      "reactions": [
+        "Abdominal pain",
+        "Agitation",
+        "Cannabinoid hyperemesis syndrome",
+        "Constipation",
+        "Hospitalisation",
+        "Hypertension",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250106",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CANNABIS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000349",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250110",
+      "reactions": [
+        "Androgen deficiency",
+        "Anxiety",
+        "Depression",
+        "Hepatic enzyme increased",
+        "Hepatic function abnormal"
+      ],
+      "date_started": "20250106",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PHARMA WAR GUERRILLA STACK 4",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-007575",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250406",
+      "reactions": [
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIRKLAND SIGNATURE TAKE AND BAKE MARGHERITA PIZZA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000249",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250108",
+      "reactions": [
+        "Diarrhoea",
+        "Hypersensitivity",
+        "Pain"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "1",
+        "age_unit": "day(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "QUAKER OATMEAL INSTANT CINNAMON",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000229",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250108",
+      "reactions": [
+        "Fatigue",
+        "Nausea"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE A DAY PRENATAL ADVANCED",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000789",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20250117",
+      "reactions": [
+        "Abdominal pain upper",
+        "Headache",
+        "Oropharyngeal pain"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "70",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MAYER BROS FRESH PRESSED APPLE JUICE",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN C",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN B",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN A",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000224",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20250108",
+      "reactions": [
+        "Nausea"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "56",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HOSTESS POWDERED MINI DONUTS",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-007514",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250405",
+      "reactions": [
+        "Decreased appetite",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Malaise",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIRKLAND SIGNATURE TAKE AND BAKE MARGHERITA PIZZA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000206",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250107",
+      "reactions": [
+        "Diarrhoea",
+        "Dyspepsia",
+        "Muscle spasms"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "71",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BAKERY FRESH GOODNESS MUFFINS BLUEBERRY",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000663",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250113",
+      "reactions": [
+        "Abdominal pain",
+        "Blood pressure decreased",
+        "Nausea",
+        "Syncope",
+        "Vomiting"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "45",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOE'S ONE DOZEN ORGANIC GRADE A LARGE BROWN EGGS",
+          "industry_code": "15",
+          "industry_name": "Egg/Egg Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000276",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20250108",
+      "reactions": [
+        "Diarrhoea",
+        "Fatigue",
+        "Food poisoning",
+        "Nausea",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "39",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GOOD AND GATHER UNSWEETENED ORIGINAL ALMOND MILK",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000290",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250109",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250107",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MOUNTAIN DEW BAJA BLAST",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000977",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250120",
+      "reactions": [
+        "Abdominal discomfort",
+        "Anaphylactic shock",
+        "Emergency care",
+        "Hospitalisation",
+        "Mouth swelling",
+        "Tachycardia",
+        "Urticaria",
+        "Wheezing"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "73",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CASHEWS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000486",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Diarrhoea",
+        "Hypersensitivity",
+        "Nausea"
+      ],
+      "date_started": "20250107",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BORDEN 2 PERCENT AMERICAN MILK SINGLES",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000310",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250109",
+      "reactions": [
+        "Hypersensitivity",
+        "Oral pruritus",
+        "Swelling",
+        "Urticaria"
+      ],
+      "date_started": "20250107",
+      "consumer": {
+        "age": "17",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CRISP APPLE",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000312",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250109",
+      "reactions": [
+        "Anaphylactic reaction",
+        "Hypersensitivity",
+        "Rash",
+        "Swelling"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DAIYA CREAM CHEEZE DAIRY-FREE STRAWBERRY",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001608",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250207",
+      "reactions": [
+        "Atrial fibrillation",
+        "Chest discomfort",
+        "Dyspnoea",
+        "Hospitalisation"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "80",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BALANCE OF NATURE WHOLE PRODUCE FRUITS 90 CAPSULES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "BALANCE OF NATURE WHOLE PRODUCE VEGGIES 90 CAPSULES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "COLLAGEN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001837",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250212",
+      "reactions": [
+        "Dizziness",
+        "Loss of consciousness"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "42",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "AG1 WHOLE FOOD POUCH 360G NON SPECIFIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000492",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Chills",
+        "Diarrhoea",
+        "Fatigue",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "25",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SOUP BASE FOR SICHUAN STYLE HOT & SPICY HOT POT (MALATANG)",
+          "industry_code": "38",
+          "industry_name": "Soup"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-013383",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250815",
+      "reactions": [
+        "Vision blurred",
+        "Visual impairment"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "83",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PRESERVISION ARDS 2",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VIT D3 4000 IU",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "TYLENOL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVIT WOMANS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "JOINT PAIN MAG GLYCINATE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "HAIR SKIN AND NAILS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000259",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250108",
+      "reactions": [
+        "Diarrhoea",
+        "Food poisoning",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FOOD LION LARGE WHITE EGGS",
+          "industry_code": "15",
+          "industry_name": "Egg/Egg Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001741",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250210",
+      "reactions": [
+        "Asthenia",
+        "Hepatitis"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "78",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "METAGENICS CANDIBACTIN AR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "METAGENICS CANDIBACTIN BR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ALLIMED",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MOTILITY ACTIVATOR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-002938",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Injury"
+      ],
+      "date_created": "20250308",
+      "reactions": [
+        "Abdominal pain lower",
+        "Injury"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "69",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GREAT VALUE WHITE GRAPE JUICE",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-002044",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20250218",
+      "reactions": [
+        "Blood potassium decreased",
+        "Diarrhoea",
+        "Hospitalisation"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MEGAFOOD IRON BLOOD BUILDER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000408",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250111",
+      "reactions": [
+        "Abdominal pain upper",
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Pain",
+        "Pyrexia"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WYMANS TRIPLE BERRY",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000437",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250113",
+      "reactions": [
+        "Choking",
+        "Emergency care",
+        "Foreign body in throat"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "YOPLAIT ORIGINAL STRAWBERRY",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000331",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250109",
+      "reactions": [
+        "Diarrhoea",
+        "Fatigue",
+        "Food poisoning",
+        "Headache",
+        "Illness",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CARROTS",
+          "industry_code": "25",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000346",
+      "outcomes": [
+        "Hospitalization",
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250110",
+      "reactions": [
+        "Electric shock sensation",
+        "Panic attack"
+      ],
+      "date_started": "20250108",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "VITAMIN D3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "WOMENS CARE PROBIOTIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000344",
+      "outcomes": [
+        "Life Threatening",
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250110",
+      "reactions": [
+        "Blood glucose increased"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HALDIRAAM MINUTE KHANA CHOLEY KULCHA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HALDIRAAM MINUTE POTATO SAMOSA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000736",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Extrasystoles",
+        "Palpitations"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "64",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "URINOZINC PROSTATE PLUS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-007570",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250406",
+      "reactions": [
+        "Decreased appetite",
+        "Feeling abnormal",
+        "Nausea"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "50",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE FLAVORED PROTEIN BAR PEANUT BUTTER PIE",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE FLAVORED PROTEIN BAR PEANUT BUTTER PIE",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000752",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Abdominal pain upper",
+        "Nausea",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CUCUMBERS",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000755",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Gastrointestinal pain"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "43",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "STRESS RELIEF",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001176",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250125",
+      "reactions": [
+        "Anaphylactic reaction",
+        "Dyspnoea",
+        "Emergency care",
+        "Hospitalisation",
+        "Hypersensitivity",
+        "Rash",
+        "Vomiting"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "11",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SHORE LUNCH BREADING MIX FISH OVEN STYLE",
+          "industry_code": "02",
+          "industry_name": "Whole Grain/Milled Grain Prod/Starch"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-009731",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Disability",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250620",
+      "reactions": [
+        "Hypersensitivity"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "9",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "STAGE STOP CANDY PRODUCT IS ASSORTED CREMES",
+          "industry_code": "33",
+          "industry_name": "Candy W/O Choc/Special/Chew Gum"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000328",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250109",
+      "reactions": [
+        "Vomiting"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "70",
+        "age_unit": "day(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISH FARMS BLUEBERRIES",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000341",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250110",
+      "reactions": [
+        "Blood pressure increased",
+        "Dizziness",
+        "Dry mouth",
+        "Emergency care",
+        "Fatigue",
+        "Heart rate increased",
+        "Hospitalisation",
+        "Palpitations",
+        "Swelling"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BULKSUPPLEMENTS.COM ASHWAGANDHA ROOT EXTRACT POWDER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000423",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Injury"
+      ],
+      "date_created": "20250112",
+      "reactions": [
+        "Abdominal distension",
+        "Diarrhoea",
+        "Gastrointestinal pain",
+        "Headache",
+        "Injury",
+        "Nausea"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TAYLOR FARMS APPLE PECAN SALAD KIT",
+          "industry_code": "39",
+          "industry_name": "Prep Salad Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000360",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20250110",
+      "reactions": [
+        "Diarrhoea",
+        "Fatigue",
+        "Nausea",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MR LUCKY ORGANIC ROMAINE HEARTS",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000673",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Dizziness",
+        "Headache",
+        "Nausea"
+      ],
+      "date_started": "20250109",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BAREBELLS CHOCOLATE DOUGH PROTEIN BAR",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000319",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250109",
+      "reactions": [
+        "Blood pressure increased",
+        "Dry mouth",
+        "Euphoric mood",
+        "Eye disorder",
+        "Mental status changes",
+        "Tachycardia",
+        "Tremor"
+      ],
+      "date_started": "20250109",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ECOWISE CREATINE GUMMIES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000403",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Injury"
+      ],
+      "date_created": "20250111",
+      "reactions": [
+        "Cough",
+        "Injury",
+        "Insomnia",
+        "Nausea",
+        "Pain",
+        "Rhinorrhoea"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "66",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SPRING VALLEY VITAMIN B COMPLEX WITH B12 METABOLISM SUPPORT DIETARY SUPPLEMENT DOSES BERRY",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000766",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Eye swelling",
+        "Fatigue",
+        "Nausea"
+      ],
+      "date_started": "20250110",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LATHEM FAMILY FARMS EGGS",
+          "industry_code": "15",
+          "industry_name": "Egg/Egg Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000404",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20250111",
+      "reactions": [
+        "Headache",
+        "Heart rate increased",
+        "Malaise",
+        "Nausea",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EAT MEATI MUSHROOM ROOT PROTEIN CLASSIC CUTLETS",
+          "industry_code": "18",
+          "industry_name": "Vegetable Protein Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000633",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250115",
+      "reactions": [
+        "Cough",
+        "Hypersensitivity",
+        "Rash",
+        "Rhinorrhoea",
+        "Swelling"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "7",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BRAMI RADIATORI",
+          "industry_code": "04",
+          "industry_name": "Macaroni/Noodle Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001900",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250213",
+      "reactions": [
+        "Asthenia",
+        "Blood pressure decreased",
+        "Dizziness",
+        "Hyperhidrosis",
+        "Loss of consciousness",
+        "Somnolence"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "72",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NIACIN 100 MG COATED TABLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CO Q 10",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001095",
+      "outcomes": [
+        "Other Serious Outcome"
+      ],
+      "date_created": "20250123",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SCULPT NATION TESTBOOST MAX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001145",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250125",
+      "reactions": [
+        "Fatigue",
+        "Jaundice",
+        "Yellow skin"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIRKLAND SIGNATURETURMERIC 1000 MG WITH BLACK PEPPER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000888",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250120",
+      "reactions": [
+        "Diarrhoea",
+        "Hypersensitivity",
+        "Malaise",
+        "Muscle spasms",
+        "Nausea",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISCONSIN'S FINEST WEYAUWEGA COLBY JACK",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISCONSIN'S FINEST WEYAUWEGA SHREDDED MOZZARELLA",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISCONSIN'S FINEST WEYAUWEGA SHREDDED COLBY JACK",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISCONSIN'S FINEST WEYAUWEGA MOZZARELLA",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISCONSIN'S FINEST WEYAUWEGA MILD CHEDDAR BLOCK",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "WISCONSIN'S FINEST WEYAUWEGA MILD CHEDDAR",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-002209",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250221",
+      "reactions": [
+        "Gastrointestinal disorder"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "33",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATAL CHOLINE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000946",
+      "outcomes": [
+        "Disability"
+      ],
+      "date_created": "20250117",
+      "reactions": [
+        "Abdominal pain upper"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "40",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BLUEBERRY PUDDING RING",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000724",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Swelling",
+        "Vomiting"
+      ],
+      "date_started": "20250110",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FRESH EXPRESS BABY SPINACH",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000699",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Anxiety"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "40",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BELFONTE COTTAGE CHEESE",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000400",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250111",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "11",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ALANI PROTEIN SHAKE COOKIES & CREAM",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000516",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Hypersensitivity",
+        "Urticaria"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DOLE ENERGY DRINK MANGO STRAWBERRY",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000430",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250113",
+      "reactions": [
+        "Diarrhoea",
+        "Fatigue",
+        "Food poisoning",
+        "Headache",
+        "Nausea",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "35",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MIRACLE NOODLE THAI PEANUT KETO MEAL PLANT BASED NOODLES",
+          "industry_code": "04",
+          "industry_name": "Macaroni/Noodle Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001131",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250124",
+      "reactions": [
+        "Abdominal pain upper",
+        "Crying",
+        "Decreased appetite",
+        "Diarrhoea",
+        "Flatulence",
+        "Hypersensitivity",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "5",
+        "age_unit": "month(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIRKLAND SIGNATURE PRO CARE INFANT FORMULA MILK BASED POWDER WITH IRON",
+          "industry_code": "40P",
+          "industry_name": "Powder Formula INFANT FORMULA"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000409",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250111",
+      "reactions": [
+        "Hypersensitivity",
+        "Nausea",
+        "Pain",
+        "Throat irritation"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "18",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ANNIE'S SOUR BUNNIES",
+          "industry_code": "33",
+          "industry_name": "Candy W/O Choc/Special/Chew Gum"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000465",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250113",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Dizziness",
+        "Hyperhidrosis",
+        "Influenza like illness"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "76",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WHOLE CLOVES",
+          "industry_code": "28",
+          "industry_name": "Spices, Flavors And Salts"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000421",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Injury"
+      ],
+      "date_created": "20250112",
+      "reactions": [
+        "Loss of consciousness"
+      ],
+      "date_started": "20250111",
+      "consumer": {
+        "age": "68",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MYSTIC LABS DELTA 8 300 MG GUMMIES",
+          "industry_code": "33",
+          "industry_name": "Candy W/O Choc/Special/Chew Gum"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000668",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Fatigue",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250112",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NURTURE LIFE CHICKEN DUMPLINGS",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000442",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250113",
+      "reactions": [
+        "Dizziness",
+        "Headache",
+        "Nausea"
+      ],
+      "date_started": "20250112",
+      "consumer": {
+        "age": "43",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NEWTOWN COMPANY FROZEN CHINESE DOUGHNUTS",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-006639",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250429",
+      "reactions": [
+        "Diarrhoea",
+        "Dysphonia",
+        "Haemorrhage",
+        "Petechiae",
+        "Vomiting"
+      ],
+      "date_started": "20250112",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TONYS SUPREME SAUSAGE, PEPPERONI, GREEN & RED PEPPERS AND ONIONS PIZZA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000938",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250119",
+      "reactions": [
+        "Hypersensitivity"
+      ],
+      "date_started": "20250112",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MIA ITALIAN TAKE & BAKE PIZZA LARGE TRADITIONAL CRUST CHEESE",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000515",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Abdominal pain upper",
+        "Diarrhoea",
+        "Illness",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250112",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LIVE IT UP SUPER GREENS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000502",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250112",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LA TERRA FINA SPINACH ARTICHOKE AND PARMESAN DIP",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000791",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Burning sensation",
+        "Embolism",
+        "Fatigue",
+        "Pain in extremity",
+        "Paraesthesia",
+        "Pelvic pain"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SKINADE USA BETTER SKIN FROM WITHIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MONTELUKAST",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MAGNESIUM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ASHWAGANDHA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000499",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250114",
+      "reactions": [
+        "Decreased appetite",
+        "Nausea"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "56",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "OCEANS HALO RAMEN",
+          "industry_code": "04",
+          "industry_name": "Macaroni/Noodle Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000883",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250120",
+      "reactions": [
+        "Seizure"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "REDFERN HEMP CO 25:1 COOKIE SANDWICH 1500MG CBD 50MG THC",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000942",
+      "outcomes": [
+        "Death",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250119",
+      "reactions": [
+        "Arrhythmia",
+        "Circulatory collapse",
+        "Death"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "33.9",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ZYREXIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTI VITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FOLIC ACID",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000738",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Abdominal pain",
+        "Malaise",
+        "Nausea"
+      ],
+      "date_started": "20250113",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MORNING STAR FARMS SPICY BLACK BEAN BURGERS PLANT-BASED",
+          "industry_code": "18",
+          "industry_name": "Vegetable Protein Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000841",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250118",
+      "reactions": [
+        "Crying",
+        "Diarrhoea",
+        "Flatulence",
+        "Hypersensitivity",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "7",
+        "age_unit": "month(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HIPP BIO COMBIOTIK DUTCH STAGE 2",
+          "industry_code": "40P",
+          "industry_name": "Powder Formula INFANT FORMULA"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000730",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Blood pressure increased",
+        "Decreased appetite",
+        "Dependence",
+        "Drug withdrawal syndrome",
+        "Dry skin",
+        "Incoherent",
+        "Insomnia",
+        "Vomiting"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "42",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FEEL FREE CLASSIC KRATOM",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000842",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250118",
+      "reactions": [
+        "Diarrhoea",
+        "Vomiting"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "70",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "COCONUT",
+          "industry_code": "21",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000812",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250118",
+      "reactions": [
+        "Diarrhoea",
+        "Dizziness",
+        "Fatigue",
+        "Nausea",
+        "Pain"
+      ],
+      "date_started": "20250113",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SCULPTNATION BURN EVOLVED 2.0",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000693",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Abdominal discomfort",
+        "Diarrhoea",
+        "Hypersensitivity",
+        "Nausea"
+      ],
+      "date_started": "20250113",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "365 ORGANIC CREAMY PEANUT BUTTER",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001810",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250211",
+      "reactions": [
+        "Pharyngeal swelling"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "65",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DOTERRA ON GUARD PROTECTING THROAT DROPS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001635",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250207",
+      "reactions": [
+        "Hypersensitivity"
+      ],
+      "date_started": "20250114",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "METHYL CHARGE PLUS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000710",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Chills",
+        "Diarrhoea",
+        "Dizziness",
+        "Fatigue",
+        "Headache",
+        "Hyperhidrosis",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MARIE CALLENDER'S PESTO PASTA BOWL, GRILLED CHICKEN",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000992",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250121",
+      "reactions": [
+        "Diarrhoea",
+        "Nausea",
+        "Pain",
+        "Vomiting"
+      ],
+      "date_started": "20250114",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PISTACHIOS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000642",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250115",
+      "reactions": [
+        "Emergency care",
+        "Headache",
+        "Hospitalisation",
+        "Hypersensitivity",
+        "Nausea",
+        "Pruritus",
+        "Rash",
+        "Swelling",
+        "Vomiting"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "16",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATURE VALLEY PROTEIN OATS AND HONEY GRANOLA CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001074",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250122",
+      "reactions": [
+        "Abdominal pain",
+        "Chills",
+        "Diarrhoea",
+        "Dizziness",
+        "Hyperhidrosis",
+        "Myalgia",
+        "Nausea",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "44",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KROGER SIMPLE TRUTH ROASTED AND SALTED PISTACHIOS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000739",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Abdominal pain",
+        "Chills",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Pain",
+        "Pyrexia",
+        "Vomiting"
+      ],
+      "date_started": "20250114",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SHIITAKE MUSHROOMS",
+          "industry_code": "25",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000945",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Glycosylated haemoglobin increased",
+        "Hepatic enzyme increased",
+        "Hospitalisation",
+        "Immunodeficiency",
+        "Liver injury",
+        "Sepsis"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ARTRI KING",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000653",
+      "outcomes": [
+        "Disability",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250115",
+      "reactions": [
+        "Malaise"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "36",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KRATOM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000734",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250115",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Nausea"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "35",
+        "age_unit": "year(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ORGANIC VALLEY REAL DAIRY SWEET CREAM CREAMER LACTOSE FREE",
+          "industry_code": "09",
+          "industry_name": "Milk/Butter/Dried Milk Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000937",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250119",
+      "reactions": [
+        "Rash"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "1",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATIERRA FREEZE-DRIED ORGANIC STRAWBERRIES",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000648",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250115",
+      "reactions": [
+        "Abdominal pain",
+        "Diarrhoea",
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Pain",
+        "Presyncope"
+      ],
+      "date_started": "20250114",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ORGAIN ORGANIC PLANT-BASED 21G PROTEIN POWDER, CREAMY CHOCOLATE FUDGED",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000950",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250117",
+      "reactions": [
+        "Seizure"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "age": "47.6",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ZAZA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001101",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250123",
+      "reactions": [
+        "Abdominal pain",
+        "Blood pressure increased",
+        "Fatigue",
+        "Hypersensitivity",
+        "Nausea"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "age": "71",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOES SOLID WHITE ALBACORE TUNA",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-019074",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20251204",
+      "reactions": [
+        "Drug reaction with eosinophilia and systemic symptoms",
+        "Pruritus",
+        "Rash",
+        "Sensitive skin"
+      ],
+      "date_started": "20250115",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRUNATURE ADVANCED DIGESTIVE PROBIOTIC",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001068",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250122",
+      "reactions": [
+        "Abdominal pain",
+        "Food poisoning",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250115",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CAMPBELL'S CHUNKY NEW ENGLAND CLAM CHOWDER",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000749",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Allergic Reaction"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Burning sensation",
+        "Hypersensitivity",
+        "Pain",
+        "Swelling"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ANNABELLE CANDY CO INC ROCKY ROAD CHOCOLATE COVERED MARSHMALLOW CANDY BAR",
+          "industry_code": "34",
+          "industry_name": "Choc/Cocoa Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001104",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20250123",
+      "reactions": [
+        "Blood pressure increased"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "age": "69",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRUVY ALTER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000714",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Diarrhoea",
+        "Food poisoning",
+        "Vomiting"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PAGODA CHICKEN CRISPY WRAPPER PACKED WITH CHICKEN, FRESHLY CUT CABBAGE, CARROTS, ONIONS AND CELERY EGG ROLLS",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000745",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Abdominal discomfort",
+        "Diarrhoea"
+      ],
+      "date_started": "20250115",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOES CHICKEN SHAWARMA BOWL",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000688",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250115",
+      "reactions": [
+        "Malaise"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "age": "25",
+        "age_unit": "year(s)"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LIZAS BOTANICALS KRATOM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-000717",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250116",
+      "reactions": [
+        "Diarrhoea",
+        "Food poisoning",
+        "Nausea",
+        "Vomiting"
+      ],
+      "date_started": "20250115",
+      "consumer": {
+        "age": "56",
+        "age_unit": "day(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRU FRU NATURE'S STRAWBERRIES, MILK CHOCOLATE",
+          "industry_code": "34",
+          "industry_name": "Choc/Cocoa Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2025-CFS-001616",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20250207",
+      "reactions": [
+        "Diarrhoea",
+        "Malaise"
+      ],
+      "date_started": "20250116",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MILKFLOW CHOCOLATE RASPBERRY SOFT CHEWS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    }
+  ]
+}

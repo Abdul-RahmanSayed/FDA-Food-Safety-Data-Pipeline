@@ -1,0 +1,858 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-07-07",
+    "results": {
+      "skip": 0,
+      "limit": 100,
+      "total": 3931
+    }
+  },
+  "results": [
+    {
+      "report_number": "134428",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110111",
+      "reactions": [
+        "ANXIETY",
+        "DIARRHOEA",
+        "DYSPNOEA",
+        "FEELING ABNORMAL",
+        "HYPERACUSIS",
+        "PALPITATIONS",
+        "PANIC ATTACK",
+        "PRURITUS",
+        "TREMOR"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CITRACAL PETITES CALCIUM CARBONATE  VITAMIN D",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "FARMISURE VITAMIN D3 CHOLECALCIFEROL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "136915",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20110315",
+      "reactions": [
+        "LOSS OF CONSCIOUSNESS",
+        "SYNCOPE"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "age": "65",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ASTA FX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010743",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211206",
+      "reactions": [
+        "Ovarian cancer stage IV"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "134917",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110104",
+      "reactions": [
+        "ERYTHEMA",
+        "RASH",
+        "SKIN IRRITATION"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HEALTHY TIMES MAPLE BISCUITS FOR TEETHERS",
+          "industry_code": "40",
+          "industry_name": "Baby Food Products"
+        }
+      ]
+    },
+    {
+      "report_number": "137224",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110321",
+      "reactions": [
+        "NAUSEA"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PEPSI-COLA PEPSI",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "134736",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20110124",
+      "reactions": [
+        "ABORTION SPONTANEOUS",
+        "HAEMORRHAGE",
+        "PAIN",
+        "PROCTALGIA"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "age": "32",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERBALIFE 21-DAY HERBAL CLEANSING PROGRAM AM TABLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "HERBALIFE FORMULA 1",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERBALIFE 21-DAY HERBAL CLEANSING PROGRAM PM TABLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "134872",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20110120",
+      "reactions": [
+        "ANAPHYLACTIC REACTION",
+        "ANGIOEDEMA",
+        "HYPERSENSITIVITY",
+        "LOCAL SWELLING",
+        "PARAESTHESIA ORAL",
+        "SWOLLEN TONGUE"
+      ],
+      "date_started": "20101227",
+      "consumer": {
+        "age": "67",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CALCIUM CARBONATE + VITAMIN D TABLET-CHEWABLE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "135278",
+      "outcomes": [
+        "Required Intervention",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20110131",
+      "reactions": [
+        "OTOTOXICITY",
+        "VESTIBULAR DISORDER"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "age": "36",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MINERAL SOLUTION",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "134862",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20110118",
+      "reactions": [
+        "ARTHRALGIA",
+        "CHONDROCALCINOSIS PYROPHOSPHATE",
+        "DYSARTHRIA"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "age": "70",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NORTHSTAR NUTRITIONALS REGENECELL",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "145621",
+      "outcomes": [
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20110110",
+      "reactions": [
+        "NAUSEA"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KROGER BRAND YELLOW CLING PEACHES",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "134077",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20101230",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "DIARRHOEA",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "HEADACHE",
+        "PYREXIA",
+        "VOMITING"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BEN AND JERRY'S AMERICONE DREAM ICE CREAM",
+          "industry_code": "13",
+          "industry_name": "Ice Cream Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "152935",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110105",
+      "reactions": [
+        "DIARRHOEA",
+        "HEADACHE",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "age": "62.54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "VISOY FRESH SOY JUICE",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "158323",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20121026",
+      "reactions": [
+        "CHEST PAIN",
+        "INSOMNIA",
+        "MALAISE"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "age": "56",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EMERGEN-C MULTI VITAMIN (ASCORB, ELECTROLYTE, FOLIC ACID, MULTIVITAMINS, ZINC)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "135297",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110128",
+      "reactions": [
+        "SKIN LESION"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NUTRA SONIC PROFESSIONAL FACE AND BODY CLEANSER (SOLD WITH NUTRA SONIC BRUSH)",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-010990",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211208",
+      "reactions": [
+        "Death",
+        "Ovarian cancer"
+      ],
+      "date_started": "20101228",
+      "consumer": {
+        "age": "70",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "159550",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20121119",
+      "reactions": [
+        "CHROMATURIA",
+        "FATIGUE",
+        "JAUNDICE",
+        "PRURITUS"
+      ],
+      "date_started": "20101229",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ANIMAL CUTS ANIMAL PACK",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "135494",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110204",
+      "reactions": [
+        "DYSPEPSIA",
+        "FLATULENCE",
+        "HAEMORRHAGE"
+      ],
+      "date_started": "20101229",
+      "consumer": {
+        "age": "55",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CALTRATE 600  VITAMIN D CALCIUM CARBONATE CHOLECALCIFEROL TABLET",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "161661",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20130129",
+      "reactions": [
+        "ANAPHYLACTIC REACTION",
+        "DYSPNOEA",
+        "OROPHARYNGEAL SWELLING",
+        "SWOLLEN TONGUE",
+        "THROAT TIGHTNESS"
+      ],
+      "date_started": "20101229",
+      "consumer": {
+        "age": "76",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "VITAPOWER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "213701",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20170615",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20101229",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "135180",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110103",
+      "reactions": [
+        "Adverse reaction",
+        "BLOOD PRESSURE FLUCTUATION",
+        "DIZZINESS",
+        "ERYTHEMA",
+        "HEADACHE",
+        "SKIN DISCOLOURATION"
+      ],
+      "date_started": "20101229",
+      "consumer": {
+        "age": "23",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BPI ROXYLEAN ECA WEIGHT LOSS DIETARY SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "134430",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110111",
+      "reactions": [
+        "CHOKING",
+        "DYSPHAGIA",
+        "FOREIGN BODY TRAUMA",
+        "VOMITING"
+      ],
+      "date_started": "20101229",
+      "consumer": {
+        "age": "78",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CITRACAL  PETITES(CALCIUM CITRATE + D3)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "135968",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20110203",
+      "reactions": [
+        "PNEUMONITIS",
+        "RESPIRATORY DISTRESS"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "age": "67",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LIMBREL",
+          "industry_code": "41G",
+          "industry_name": "Medical Foods, N.E.C."
+        }
+      ]
+    },
+    {
+      "report_number": "135131",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110103",
+      "reactions": [
+        "PAIN"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOES VEGETABLE MASALA BURGER, FROZEN, INDIVIDUALLY VACUUM PACKAGED",
+          "industry_code": "18",
+          "industry_name": "Vegetable Protein Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "135140",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110107",
+      "reactions": [
+        "DIARRHOEA"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CAMPBELL'S CONDENSED TOMATO SOUP",
+          "industry_code": "38",
+          "industry_name": "Soup"
+        }
+      ]
+    },
+    {
+      "report_number": "135655",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20110124",
+      "reactions": [
+        "ABDOMINAL DISCOMFORT",
+        "DIARRHOEA",
+        "INFECTION",
+        "NAUSEA"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "age": "52",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATURE'S PLUS HERBAL ACTIVE OLIVE LEAF",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "145020",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110107",
+      "reactions": [
+        "HAEMORRHAGE",
+        "LACERATION"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BUMBLE BEE CHUNK LIGHT TUNA IN WATER",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-002191",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210302",
+      "reactions": [
+        "Ovarian cancer stage IV"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "146681",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20110105",
+      "reactions": [
+        "BLISTER",
+        "BURNING SENSATION",
+        "PRURITUS",
+        "RASH PAPULAR",
+        "SKIN LESION",
+        "SWELLING"
+      ],
+      "date_started": "20101230",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BIGEN HAIR COLOR POWDER",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "142607",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20110818",
+      "reactions": [
+        "BODY TEMPERATURE INCREASED",
+        "COUGH",
+        "DYSPNOEA",
+        "PNEUMONITIS"
+      ],
+      "date_started": "20101231",
+      "consumer": {
+        "age": "57",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "LIMBREL",
+          "industry_code": "41G",
+          "industry_name": "Medical Foods, N.E.C."
+        }
+      ]
+    },
+    {
+      "report_number": "134581",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20110118",
+      "reactions": [
+        "DEHYDRATION",
+        "DIARRHOEA",
+        "FOOD POISONING",
+        "NAUSEA"
+      ],
+      "date_started": "20101231",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "COCA COLA COKE ZERO",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "138841",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20110107",
+      "reactions": [
+        "DYSGEUSIA"
+      ],
+      "date_started": "20101231",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HICKORY HARVEST FOODS RAW PINE NUTS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    }
+  ]
+}

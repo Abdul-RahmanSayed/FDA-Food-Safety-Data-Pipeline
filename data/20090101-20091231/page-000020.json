@@ -1,0 +1,2911 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service. Submission of an adverse event report does not constitute an admission that a product caused or contributed to an event. The information in these reports has not been scientifically or otherwise verified as to a cause and effect relationship and cannot be used to estimate incidence (occurrence rate) or to estimate risk.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2026-07-07",
+    "results": {
+      "skip": 0,
+      "limit": 100,
+      "total": 4180
+    }
+  },
+  "results": [
+    {
+      "report_number": "112737",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090504",
+      "reactions": [
+        "BLOOD PRESSURE INCREASED",
+        "ERYTHEMA",
+        "FEELING HOT"
+      ],
+      "date_started": "20090414",
+      "consumer": {
+        "age": "26",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT RAPID RELEASE CAPSULES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "115776",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090415",
+      "reactions": [
+        "Crying",
+        "Diarrhoea"
+      ],
+      "date_started": "20090414",
+      "consumer": {
+        "age": "5",
+        "age_unit": "week(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ENFAMIL GENTLEASE LIPIL MILK BASED INFANT FORMULA",
+          "industry_code": "40",
+          "industry_name": "Baby Food Products"
+        }
+      ]
+    },
+    {
+      "report_number": "114280",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090612",
+      "reactions": [
+        "LIVER FUNCTION TEST ABNORMAL"
+      ],
+      "date_started": "20090414",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT HARDCORE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "PROTEIN POWDER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112447",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090427",
+      "reactions": [
+        "ABDOMINAL PAIN"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "20",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT MAX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112860",
+      "outcomes": [
+        "Life Threatening",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "BACK PAIN"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "51.31",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT DIETARY SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112529",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090430",
+      "reactions": [
+        "DEHYDRATION",
+        "DIARRHOEA",
+        "MALAISE",
+        "VOMITING"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "VITAMIN B12 1000MCG TR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "114917",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090701",
+      "reactions": [
+        "DIARRHOEA"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EARTH'S BEST ORGANIC INFANT FORMULA WITH LIFE'S DHA",
+          "industry_code": "40",
+          "industry_name": "Baby Food Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2020-CFS-002131",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20200217",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "57",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112326",
+      "outcomes": [
+        "Life Threatening",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090424",
+      "reactions": [
+        "CHEST DISCOMFORT",
+        "CHEST PAIN",
+        "DISORIENTATION",
+        "DIZZINESS",
+        "EUPHORIC MOOD",
+        "FEELING ABNORMAL",
+        "FEELING HOT",
+        "HEADACHE",
+        "HYPERHIDROSIS"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "20",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "2 DAY DIET JAPAN LINGZHI SLIMMING FORMULA PILLS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "154938",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20120730",
+      "reactions": [
+        "RENAL DISORDER",
+        "RENAL FAILURE"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "45",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT CAFFEINE FREE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113019",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090511",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "CHEST PAIN",
+        "CHROMATURIA",
+        "DECREASED APPETITE",
+        "DIARRHOEA",
+        "FATIGUE",
+        "HEPATIC ENZYME ABNORMAL",
+        "HEPATIC INFECTION",
+        "HEPATITIS A",
+        "JAUNDICE",
+        "PRURITUS",
+        "VOMITING",
+        "WEIGHT DECREASED",
+        "YELLOW SKIN"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "115922",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090415",
+      "reactions": [
+        "PHARYNGEAL ERYTHEMA",
+        "PHARYNGITIS",
+        "THROAT IRRITATION"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "WHITMAN'S SAMPLER",
+          "industry_code": "34",
+          "industry_name": "Choc/Cocoa Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "113765",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090417",
+      "reactions": [
+        "FOOD ALLERGY",
+        "LOCAL SWELLING",
+        "PARAESTHESIA ORAL",
+        "RASH",
+        "URTICARIA"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "RUBY LIGHT TUNA IN WATER",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "KEN'S EXTRA HEAVY MAYO",
+          "industry_code": "27",
+          "industry_name": "Dressing/Condiment"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CELERY",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "113993",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090501",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20090415",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GREAT VALUE MANDARIN ORANGES",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-010187",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20210806",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112522",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "MUSCLE SPASMS"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "61",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ACAI BERRY DETOX 943",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112847",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "ASTHENIA",
+        "FATIGUE",
+        "MYALGIA",
+        "OESOPHAGEAL PAIN",
+        "OESOPHAGEAL SPASM"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "27",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT MAX RAPID RELEASE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-006242",
+      "outcomes": [
+        "Death"
+      ],
+      "date_created": "20210614",
+      "reactions": [
+        "Death",
+        "Injury"
+      ],
+      "date_started": "20090415",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112838",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "CANDIDIASIS",
+        "DYSGEUSIA",
+        "TONGUE DISCOLOURATION"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "age": "67.37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "READ YEAST RICE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "117036",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090427",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "MALAISE"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS OAT CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "139100",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110511",
+      "reactions": [
+        "MYOCARDIAL INFARCTION"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-008974",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210719",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "age": "57",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112803",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090416",
+      "reactions": [
+        "BLISTER",
+        "BURNING SENSATION",
+        "ERYTHEMA",
+        "FEELING HOT",
+        "PARAESTHESIA",
+        "PRURITUS"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ZANTREX 3",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112509",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090420",
+      "reactions": [
+        "DYSGEUSIA",
+        "VOMITING"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "age": "3",
+        "age_unit": "month(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SAFEWAY REFRESH PURIFIED DRINKING WATER",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "114116",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090421",
+      "reactions": [
+        "DIARRHOEA"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ORANGE ROUGHY",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "116519",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090427",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "MALAISE"
+      ],
+      "date_started": "20090416",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CHEERIOS OAT CEREAL",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "112825",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "GALLBLADDER DISORDER",
+        "HEPATIC NEOPLASM"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT INSTANT DRINK PACKETS 3G DIETARY SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "115984",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "NAUSEA",
+        "PAIN"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ARCTIC SHORES SEAFOOD CO. POPCORN SHRIMP WITH CRISPY BREADING",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "112331",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090423",
+      "reactions": [
+        "BLOOD GLUCOSE INCREASED",
+        "FEELING DRUNK",
+        "SOMNOLENCE"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE A DAY ENERGY",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112570",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "DIARRHOEA",
+        "DYSPEPSIA",
+        "MALAISE",
+        "VOMITING"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EMERALD PEANUTS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "113371",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090519",
+      "reactions": [
+        "ARTERIAL OCCLUSIVE DISEASE"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "age": "87",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SAM'S CLUB MEGA RED 90CT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112563",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090423",
+      "reactions": [
+        "DIARRHOEA",
+        "VOMITING"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FIT AND ACTIVE RUBY RED GRAPEFRUIT",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "113225",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Required Intervention",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090507",
+      "reactions": [
+        "Adverse event",
+        "BLOOD PRESSURE FLUCTUATION",
+        "BURNING SENSATION",
+        "CARDIOPULMONARY FAILURE",
+        "DIZZINESS",
+        "DYSPNOEA",
+        "GAIT DISTURBANCE",
+        "HEADACHE",
+        "HYPERTENSION",
+        "HYPOAESTHESIA",
+        "NAUSEA",
+        "VISION BLURRED"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "age": "51",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PERRIER MINERAL WATER",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "112664",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "DIARRHOEA",
+        "DYSPEPSIA",
+        "MALAISE",
+        "VOMITING"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EMERALD PEANUTS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "2021-CFS-012878",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210908",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20090417",
+      "consumer": {
+        "age": "48",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "114512",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090618",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "HEADACHE",
+        "MALAISE",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20090418",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "OYSTERS",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "112280",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090420",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "BODY TEMPERATURE INCREASED",
+        "DIARRHOEA"
+      ],
+      "date_started": "20090418",
+      "consumer": {
+        "age": "63.67",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BEAR NAKED PEAK PROTEIN GRANOLA",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "114337",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090618",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "GASTROENTERITIS VIBRIO",
+        "HEADACHE",
+        "MALAISE",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20090418",
+      "consumer": {
+        "age": "5",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "OYSTERS",
+          "industry_code": "16",
+          "industry_name": "Fishery/Seafood Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "139109",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110511",
+      "reactions": [
+        "ANXIETY",
+        "CONVULSION",
+        "EMOTIONAL DISTRESS",
+        "INJURY",
+        "PAIN",
+        "STRESS"
+      ],
+      "date_started": "20090419",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-001402",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20210928",
+      "reactions": [
+        "Ovarian cancer stage I"
+      ],
+      "date_started": "20090419",
+      "consumer": {
+        "age": "43",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112828",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "FAECES PALE",
+        "HEADACHE"
+      ],
+      "date_started": "20090419",
+      "consumer": {
+        "age": "24",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR STRENGTH SUPPLEMENT CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112685",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization",
+        "Disability",
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090504",
+      "reactions": [
+        "BODY TEMPERATURE INCREASED",
+        "CHROMATURIA",
+        "COLD SWEAT",
+        "FATIGUE",
+        "HEART RATE INCREASED",
+        "HEPATIC ENZYME INCREASED",
+        "PALPITATIONS",
+        "SPLEEN SCAN ABNORMAL",
+        "THIRST"
+      ],
+      "date_started": "20090419",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-013702",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20231018",
+      "reactions": [
+        "Death",
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "40",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "JOHNSONS POWDER NO UPC",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112343",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090423",
+      "reactions": [
+        "Adverse reaction",
+        "BURNING SENSATION",
+        "MALAISE",
+        "VOMITING"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "74",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "AVOCADOS",
+          "industry_code": "21",
+          "industry_name": "Fruit/Fruit Prod"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "TOMATOES",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "CUCUMBERS",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GREEN ONIONS",
+          "industry_code": "25",
+          "industry_name": "Vegetables/Vegetable Products"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "ICEBERG LETTUCE",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "LITE HOUSE BLEU CHEESE DRESSING",
+          "industry_code": "27",
+          "industry_name": "Dressing/Condiment"
+        }
+      ]
+    },
+    {
+      "report_number": "114348",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090603",
+      "reactions": [
+        "ABDOMINAL PAIN"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GIANT FAT FREE SINGLES YELLOW AMERICAN CHEESE",
+          "industry_code": "12",
+          "industry_name": "Cheese/Cheese Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "112734",
+      "outcomes": [
+        "Disability",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090504",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "HEPATIC ENZYME INCREASED"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "35",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT HARDCORE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113564",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090514",
+      "reactions": [
+        "VOMITING"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "20",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GNC NIACIN 500MG",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "161075",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20130111",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "ALANINE AMINOTRANSFERASE INCREASED",
+        "ANOREXIA",
+        "ASPARTATE AMINOTRANSFERASE INCREASED",
+        "BLOOD ALKALINE PHOSPHATASE INCREASED",
+        "BLOOD BILIRUBIN INCREASED",
+        "CHROMATURIA",
+        "HEPATOCELLULAR INJURY",
+        "LIVER FUNCTION TEST ABNORMAL",
+        "LIVER INJURY",
+        "NAUSEA",
+        "OESOPHAGITIS",
+        "PRURITUS",
+        "RASH",
+        "RASH PAPULAR",
+        "ULCER",
+        "VOMITING"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "53",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ACAI (HERBAL)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "VITAMINS NOS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MAXINE'S MENOPAUSE FORMULA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "COLON CLEANSE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "COENZYME Q10 UBIDECARENONE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "BLACK COHOSH",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113637",
+      "outcomes": [
+        "Life Threatening",
+        "Required Intervention",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090528",
+      "reactions": [
+        "LIVER FUNCTION TEST ABNORMAL",
+        "WEIGHT DECREASED"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "17",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "CLA EXTREME FAT BURNER .7 TO 4.5 GRAMS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "158374",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20121026",
+      "reactions": [
+        "ERYTHEMA",
+        "HYPERSENSITIVITY"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EMERGEN-C KIDZ VITAMIN C (ASCORBIC ACID, B-COMPLEX, ELECTROLYTE, MULTIMINERAL, MULTIVIT, ZINC) POWDER FOR ORAL SOLUTION",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "120277",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "MALAISE",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SOUTHERN GROVE TRAIL MIX NUTS AND CHOCOLATE",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "112284",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090422",
+      "reactions": [
+        "DIZZINESS",
+        "NAUSEA",
+        "PALPITATIONS"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "RES V PURE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113414",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090521",
+      "reactions": [
+        "ALANINE AMINOTRANSFERASE INCREASED",
+        "ASPARTATE AMINOTRANSFERASE INCREASED",
+        "BLOOD CREATINE PHOSPHOKINASE INCREASED",
+        "DEAFNESS",
+        "GAIT DISTURBANCE",
+        "HEPATIC STEATOSIS",
+        "HEPATOCELLULAR INJURY",
+        "MUSCLE SPASMS",
+        "TINNITUS"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "42",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT HARDCORE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "122691",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20100107",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "COAGULOPATHY",
+        "DIARRHOEA",
+        "ENCEPHALOPATHY",
+        "HYPERBILIRUBINAEMIA",
+        "HYPERGLYCAEMIA",
+        "JAUNDICE",
+        "LIVER FUNCTION TEST ABNORMAL",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERBALIFE CELL ACTIVATOR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112521",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "INDURATION"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SCHIFF NUTRITION GROUP INC MOVE FREE ADVANCED 1.5 GRAMS -GLUTO- 200 MG CHON.",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112832",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "HEPATIC ENZYME INCREASED"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "47",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "149907",
+      "outcomes": [
+        "Hospitalization",
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20120307",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "ALANINE AMINOTRANSFERASE INCREASED",
+        "ASPARTATE AMINOTRANSFERASE INCREASED",
+        "BIOPSY LIVER ABNORMAL",
+        "BLOOD ALKALINE PHOSPHATASE INCREASED",
+        "BLOOD BILIRUBIN INCREASED",
+        "CHOLECYSTITIS",
+        "DIARRHOEA",
+        "FATIGUE",
+        "GALLBLADDER DISORDER",
+        "GASTROENTERITIS",
+        "HEPATIC FAILURE",
+        "INTERNATIONAL NORMALISED RATIO INCREASED",
+        "JAUNDICE",
+        "LETHARGY",
+        "LEUKOCYTOSIS",
+        "LIPASE INCREASED",
+        "LIVER INJURY",
+        "NAUSEA",
+        "PANCREATITIS",
+        "RASH",
+        "VOMITING",
+        "WHITE BLOOD CELL COUNT INCREASED"
+      ],
+      "date_started": "20090420",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERBALIFE CELL ACTIVATOR",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "HERBALIFE CALCIUM SUPPLEMENT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "118323",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090901",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "FEELING OF BODY TEMPERATURE CHANGE",
+        "FOOD POISONING",
+        "HAEMATOCHEZIA",
+        "MALAISE"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PEANUT BUTTER AND COMPANY ALL NATURAL DARK CHOCOLATE DREAMS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "114712",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090625",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "BLOOD BILIRUBIN INCREASED",
+        "HEPATIC ENZYME INCREASED",
+        "HEPATITIS"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112867",
+      "outcomes": [
+        "Life Threatening",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "BLOOD PRESSURE INCREASED",
+        "HEADACHE",
+        "HEART RATE INCREASED"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "19",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRI MATRIX",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "126664",
+      "outcomes": [
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20100518",
+      "reactions": [
+        "Product label issue",
+        "TOOTH INJURY"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "58",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "OLD DUTCH CHEDDAR CHEESE POPPED POPCORN",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "112586",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090501",
+      "reactions": [
+        "ANAPHYLACTIC SHOCK",
+        "DEPRESSED LEVEL OF CONSCIOUSNESS",
+        "DYSPNOEA",
+        "SWELLING FACE",
+        "URTICARIA",
+        "VOMITING"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "13",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ONE A DAY-TEEN ADVANTAGE FOR HER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "139489",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110525",
+      "reactions": [
+        "ANXIETY",
+        "CONVULSION",
+        "EMOTIONAL DISTRESS",
+        "INJURY",
+        "PAIN",
+        "STRESS"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "153993",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20120702",
+      "reactions": [
+        "ABDOMINAL DISTENSION",
+        "DISCOMFORT",
+        "HEPATOCELLULAR INJURY",
+        "LIVER FUNCTION TEST ABNORMAL",
+        "RENAL DISORDER",
+        "SPLEEN DISORDER",
+        "SPLENOMEGALY",
+        "SWELLING",
+        "URINE ANALYSIS ABNORMAL"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR DRINK MIX SACHETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "138568",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110426",
+      "reactions": [
+        "HEPATITIS",
+        "LIVER FUNCTION TEST ABNORMAL"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "31",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT HARDCORE CAPSULES",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112782",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090421",
+      "reactions": [
+        "NAUSEA"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HERDEZ COMPANY WHOLE JALAPANEOS",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "112817",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "CHROMATURIA",
+        "SECRETION DISCHARGE",
+        "SOMNOLENCE",
+        "VOMITING"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "37",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT POWDER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-005079",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20221007",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "age": "62",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "113083",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090423",
+      "reactions": [
+        "TOOTH DISORDER",
+        "TOOTH INJURY"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GARDEN OF EATIN RED HOT BLUES SPICY ALL NATURAL TORTILLA CHIPS",
+          "industry_code": "07",
+          "industry_name": "Snack Food Item"
+        }
+      ]
+    },
+    {
+      "report_number": "116209",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090422",
+      "reactions": [
+        "BURNING SENSATION",
+        "OROPHARYNGEAL PAIN",
+        "PHARYNGITIS"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KIRKLAND GOURMET CHOCOLATE CHUNK COOKIES",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "113361",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090520",
+      "reactions": [
+        "COLD SWEAT",
+        "DIARRHOEA",
+        "MALAISE",
+        "VOMITING"
+      ],
+      "date_started": "20090421",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "41",
+          "industry_name": "Dietary Conventional Foods/Meal Replacements"
+        }
+      ]
+    },
+    {
+      "report_number": "2019-CFS-010107",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20190927",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20090422",
+      "consumer": {},
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "116719",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited Emergency Room",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090812",
+      "reactions": [
+        "BURNING SENSATION",
+        "DYSPEPSIA",
+        "HYPERSENSITIVITY",
+        "PALPITATIONS"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "DUAL-ACTION CLEANSE - TOTAL BODY PURIFIER",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "DUAL-ACTION CLEANSER - COLON CLEAR FORMULA",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "117145",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090819",
+      "reactions": [
+        "APHASIA",
+        "BLINDNESS",
+        "CEREBROVASCULAR ACCIDENT",
+        "DYSARTHRIA",
+        "HEADACHE",
+        "HEMIPARESIS",
+        "SPEECH DISORDER",
+        "VISUAL IMPAIRMENT"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "59",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT (REGULAR) DRINK MIX (SACHETS)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR (RAPID RELEASE CAPLETS)",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112327",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20090424",
+      "reactions": [
+        "COUGH",
+        "HEART RATE INCREASED",
+        "HYPERHIDROSIS",
+        "HYPERSENSITIVITY",
+        "LACRIMATION INCREASED",
+        "OCULAR HYPERAEMIA",
+        "RHINORRHOEA",
+        "SPEECH DISORDER",
+        "THROAT TIGHTNESS",
+        "URTICARIA"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "25",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "SOBE LIFEWATER ENLIGHTEN - BLACKBERRY GRAPE",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "113360",
+      "outcomes": [
+        "Life Threatening"
+      ],
+      "date_created": "20090520",
+      "reactions": [
+        "ALANINE AMINOTRANSFERASE INCREASED",
+        "ASPARTATE AMINOTRANSFERASE INCREASED",
+        "BILIRUBIN CONJUGATED INCREASED",
+        "BLOOD ALKALINE PHOSPHATASE INCREASED",
+        "BLOOD BILIRUBIN INCREASED",
+        "DECREASED APPETITE",
+        "DIARRHOEA",
+        "EPSTEIN-BARR VIRUS ANTIGEN POSITIVE",
+        "GALLBLADDER DISORDER",
+        "GAMMA-GLUTAMYLTRANSFERASE INCREASED",
+        "HEPATIC STEATOSIS",
+        "JAUNDICE",
+        "MALAISE"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "116215",
+      "outcomes": [
+        "Death",
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090728",
+      "reactions": [
+        "DEATH",
+        "MYOCARDIAL INFARCTION"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "2018-CFS-005511",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20180405",
+      "reactions": [
+        "Ovarian cancer"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "55",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "207509",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20170109",
+      "reactions": [
+        "ERYTHEMA",
+        "PRURITUS",
+        "RASH",
+        "SWELLING"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "38",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "QUORN GROUNDS",
+          "industry_code": "25",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "2022-CFS-013216",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20211230",
+      "reactions": [
+        "Ovarian cancer stage III"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "46",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112901",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090427",
+      "reactions": [
+        "CHEST PAIN",
+        "HYPERSENSITIVITY",
+        "PHARYNGITIS",
+        "VOMITING"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "14",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "QUAKER OATS CAPTAIN CRUNCH",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "2023-CFS-001881",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20220202",
+      "reactions": [
+        "Ovarian cancer stage I"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "54",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "EXEMPTION 4",
+          "industry_code": "53",
+          "industry_name": "Cosmetics"
+        }
+      ]
+    },
+    {
+      "report_number": "112389",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090424",
+      "reactions": [
+        "DYSPHAGIA",
+        "PHARYNGITIS"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "POST GRAPE NUTS",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        },
+        {
+          "role": "SUSPECT",
+          "name_brand": "POST JUST BUNCHES",
+          "industry_code": "05",
+          "industry_name": "Cereal Prep/Breakfast Food"
+        }
+      ]
+    },
+    {
+      "report_number": "113072",
+      "outcomes": [
+        "Hospitalization"
+      ],
+      "date_created": "20090507",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "HEPATITIS",
+        "VOMITING"
+      ],
+      "date_started": "20090422",
+      "consumer": {
+        "age": "32.84",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "139486",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20110525",
+      "reactions": [
+        "ANXIETY",
+        "EMOTIONAL DISTRESS",
+        "MULTIPLE INJURIES",
+        "MYALGIA",
+        "PAIN",
+        "RHABDOMYOLYSIS",
+        "STRESS"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT REGULAR RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112514",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090428",
+      "reactions": [
+        "BODY TEMPERATURE INCREASED",
+        "CHILLS",
+        "DIARRHOEA",
+        "NAUSEA",
+        "VOMITING"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "22",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BEAN SPROUTS",
+          "industry_code": "24",
+          "industry_name": "Vegetables/Vegetable Products"
+        }
+      ]
+    },
+    {
+      "report_number": "114864",
+      "outcomes": [
+        "Life Threatening",
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090428",
+      "reactions": [
+        "ADVERSE DRUG REACTION",
+        "BREATH ODOUR",
+        "DYSGEUSIA",
+        "HYPOAESTHESIA",
+        "ORAL DYSAESTHESIA",
+        "PARAESTHESIA",
+        "PHARYNGEAL HYPOAESTHESIA",
+        "SALIVA ALTERED",
+        "THROAT IRRITATION",
+        "THROAT TIGHTNESS",
+        "VOMITING"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "TRADER JOE'S RAW ALMONDS",
+          "industry_code": "23",
+          "industry_name": "Nuts/Edible Seed"
+        }
+      ]
+    },
+    {
+      "report_number": "116730",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090812",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ADENOIDECTOMY",
+        "DIARRHOEA",
+        "EAR TUBE INSERTION",
+        "LOGORRHOEA",
+        "PSYCHOMOTOR HYPERACTIVITY",
+        "RASH"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "33",
+        "age_unit": "month(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "FLINTSTONES MY FIRST",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112807",
+      "outcomes": [
+        "Life Threatening",
+        "Disability",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090506",
+      "reactions": [
+        "BLOOD PRESSURE INCREASED"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "35",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT RAPID RELEASE CAPLETS",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "125697",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20100421",
+      "reactions": [
+        "BREAST MASS"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "22",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "ANIMAL TM",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113063",
+      "outcomes": [
+        "Life Threatening",
+        "Hospitalization"
+      ],
+      "date_created": "20090507",
+      "reactions": [
+        "ASTHENIA",
+        "CHROMATURIA",
+        "FAECES PALE",
+        "HEPATITIS ACUTE",
+        "NAUSEA",
+        "PRURITUS"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "120242",
+      "outcomes": [
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090423",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "DIARRHOEA",
+        "NAUSEA"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "KRAFT FOODS TACO BELL HOME ORIGINAL STEAK FIESTA",
+          "industry_code": "37",
+          "industry_name": "Mult Food Dinner/Grav/Sauce/Special"
+        }
+      ]
+    },
+    {
+      "report_number": "113555",
+      "outcomes": [
+        "Other Serious or Important Medical Event"
+      ],
+      "date_created": "20090526",
+      "reactions": [
+        "CHROMATURIA",
+        "FAECES DISCOLOURED",
+        "HEPATIC ENZYME INCREASED",
+        "HEPATITIS",
+        "JAUNDICE",
+        "PRURITUS",
+        "VOMITING",
+        "WEIGHT DECREASED"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "29",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113865",
+      "outcomes": [
+        "Visited Emergency Room",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090605",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ABDOMINAL PAIN UPPER",
+        "DIARRHOEA",
+        "NAUSEA",
+        "OROPHARYNGEAL PAIN",
+        "WEIGHT DECREASED"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "PEPSI AQUAFINA",
+          "industry_code": "29",
+          "industry_name": "Soft Drink/Water"
+        }
+      ]
+    },
+    {
+      "report_number": "112739",
+      "outcomes": [
+        "Other Serious or Important Medical Event",
+        "Visited a Health Care Provider"
+      ],
+      "date_created": "20090504",
+      "reactions": [
+        "ABDOMINAL PAIN UPPER",
+        "BACK PAIN",
+        "FAECES PALE"
+      ],
+      "date_started": "20090423",
+      "consumer": {
+        "age": "27",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "113117",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090508",
+      "reactions": [
+        "FATIGUE",
+        "LOSS OF CONSCIOUSNESS",
+        "MIGRAINE",
+        "NAUSEA",
+        "PAIN",
+        "PHOTOSENSITIVITY REACTION",
+        "VOMITING"
+      ],
+      "date_started": "20090424",
+      "consumer": {
+        "age": "30",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "HYDROXYCUT HARDCORE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "GLUTAMINE",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "COQ10",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112729",
+      "outcomes": [
+        "Required Intervention"
+      ],
+      "date_created": "20090504",
+      "reactions": [
+        "ABASIA",
+        "ACTIVITIES OF DAILY LIVING IMPAIRED",
+        "ARTHRALGIA",
+        "BODY TEMPERATURE INCREASED",
+        "FATIGUE",
+        "JUVENILE ARTHRITIS",
+        "LIVER FUNCTION TEST ABNORMAL",
+        "PAIN",
+        "RHEUMATOID FACTOR"
+      ],
+      "date_started": "20090424",
+      "consumer": {
+        "age": "35.22",
+        "age_unit": "year(s)",
+        "gender": "Male"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "MUSCLETECH HYDROXYCUT HARDCORE INGITION STIX 2.7G",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    },
+    {
+      "report_number": "112804",
+      "outcomes": [
+        "Visited Emergency Room"
+      ],
+      "date_created": "20090501",
+      "reactions": [
+        "ANXIETY",
+        "DIZZINESS",
+        "DYSPNOEA",
+        "MALAISE",
+        "NAUSEA"
+      ],
+      "date_started": "20090424",
+      "consumer": {
+        "age": "15",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "BEARFOOT CONTESSAT LEMON ANGEL FOOD CAKE MIX",
+          "industry_code": "03",
+          "industry_name": "Bakery Prod/Dough/Mix/Icing"
+        }
+      ]
+    },
+    {
+      "report_number": "113177",
+      "outcomes": [
+        "Other Outcome"
+      ],
+      "date_created": "20090429",
+      "reactions": [
+        "ABDOMINAL PAIN",
+        "ASTHENIA",
+        "DIARRHOEA",
+        "GASTROINTESTINAL DISORDER",
+        "HYPERHIDROSIS",
+        "HYPERSENSITIVITY",
+        "NAUSEA"
+      ],
+      "date_started": "20090424",
+      "consumer": {
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "GREAT VALUE APPLE JUICE",
+          "industry_code": "20",
+          "industry_name": "Fruit/Fruit Prod"
+        }
+      ]
+    },
+    {
+      "report_number": "113568",
+      "outcomes": [
+        "Hospitalization",
+        "Other Serious or Important Medical Event",
+        "Other Serious Outcome"
+      ],
+      "date_created": "20090522",
+      "reactions": [
+        "BALANCE DISORDER",
+        "DIZZINESS",
+        "DYSARTHRIA",
+        "GAIT DISTURBANCE",
+        "NAUSEA",
+        "SWOLLEN TONGUE"
+      ],
+      "date_started": "20090424",
+      "consumer": {
+        "age": "63",
+        "age_unit": "year(s)",
+        "gender": "Female"
+      },
+      "products": [
+        {
+          "role": "SUSPECT",
+          "name_brand": "NATURE'S BOUNTY MELATONIN 5 MG",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        },
+        {
+          "role": "CONCOMITANT",
+          "name_brand": "MULTIVITAMIN",
+          "industry_code": "54",
+          "industry_name": "Vit/Min/Prot/Unconv Diet(Human/Animal)"
+        }
+      ]
+    }
+  ]
+}
