@@ -29,6 +29,28 @@ function checkDates(startDate, endDate) {
   }
 }
 
+function getWindows() {
+  const windows = [];
+  const firstYear = Number(defaultStart.slice(0, 4));
+  const finalYear = Number(defaultEnd.slice(0, 4)) - 1;
+  for (let year = firstYear; year <= finalYear; year++) {
+    // Include the final January 1 in the preceding year's window, without overlap.
+    windows.push({
+      startDate: `${year}0101`,
+      endDate: year === finalYear ? defaultEnd : `${year}1231`,
+    });
+  }
+  return windows;
+}
+
+function getConcurrency(value = 3) {
+  const limit = typeof value === "string" && /^\d+$/.test(value.trim()) ? Number(value) : value;
+  if (!Number.isSafeInteger(limit) || limit < 1) {
+    throw new Error("CONCURRENCY_LIMIT must be a positive integer.");
+  }
+  return limit;
+}
+
 function getPageUrl(startDate, endDate, apiKey) {
   checkDates(startDate, endDate);
   const url = new URL(apiUrl);
@@ -236,20 +258,70 @@ async function downloadWindow({
   return { outputDir, savedCount, total, pageCount, complete: true };
 }
 
+async function downloadAll({
+  outputDir = path.join(__dirname, "data"),
+  concurrencyLimit = 3,
+  apiKey,
+  fetchData = globalThis.fetch,
+} = {}) {
+  const limit = getConcurrency(concurrencyLimit);
+  const windows = getWindows();
+  await mkdir(path.dirname(outputDir), { recursive: true });
+  await mkdir(outputDir);
+
+  const results = new Array(windows.length);
+  let nextIndex = 0;
+  let failure = null;
+
+  async function worker() {
+    while (!failure && nextIndex < windows.length) {
+      // Claim the index before awaiting so two workers cannot take the same window.
+      const i = nextIndex;
+      nextIndex += 1;
+      const window = windows[i];
+      try {
+        results[i] = await downloadWindow({
+          ...window,
+          outputDir: path.join(outputDir, `${window.startDate}-${window.endDate}`),
+          apiKey,
+          fetchData,
+        });
+      } catch (error) {
+        if (!failure) {
+          failure = { window, error };
+        }
+        return;
+      }
+    }
+  }
+
+  // Workers catch failures themselves, allowing active windows to finish before exit.
+  const workers = Array.from({ length: Math.min(limit, windows.length) }, () => worker());
+  await Promise.all(workers);
+  if (failure) {
+    const { window, error } = failure;
+    throw new Error(`Window ${window.startDate}-${window.endDate} failed: ${error.message}`, { cause: error });
+  }
+
+  const savedCount = results.reduce((sum, result) => sum + result.savedCount, 0);
+  const total = results.reduce((sum, result) => sum + result.total, 0);
+  const pageCount = results.reduce((sum, result) => sum + result.pageCount, 0);
+  return { outputDir, windowCount: results.length, savedCount, total, pageCount, complete: true };
+}
+
 async function runDownload() {
-  const startDate = defaultStart;
-  const endDate = "20021231";
-  console.log(`Downloading one window: ${startDate} through ${endDate}.`);
-  const result = await downloadWindow({ startDate, endDate, apiKey: process.env.OPENFDA_API_KEY });
-  console.log(`Window complete: saved ${result.savedCount} reports in ${result.pageCount} pages to ${result.outputDir}.`);
-  console.log("The full assignment range is not complete: yearly workers are not implemented yet.");
+  const concurrencyLimit = getConcurrency(process.env.CONCURRENCY_LIMIT);
+  console.log(`Downloading ${defaultStart} through ${defaultEnd} with up to ${concurrencyLimit} concurrent requests.`);
+  const result = await downloadAll({ concurrencyLimit, apiKey: process.env.OPENFDA_API_KEY });
+  console.log(`Download complete: ${result.windowCount} windows, ${result.pageCount} pages, ${result.savedCount} reports.`);
+  console.log(`Saved JSON files under ${result.outputDir}.`);
 }
 
 if (require.main === module) {
   runDownload().catch(error => {
-    console.error(`Window download failed; output may be incomplete: ${error.message}`);
+    console.error(`Download failed; output may be incomplete: ${error.message}`);
     process.exitCode = 1;
   });
 }
 
-module.exports = { getPageUrl, getNextUrl, checkPage, downloadWindow };
+module.exports = { getWindows, getConcurrency, getPageUrl, getNextUrl, checkPage, downloadWindow, downloadAll };
