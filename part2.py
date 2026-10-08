@@ -33,10 +33,15 @@ ageFactors = {
 }
 termPunctuation = re.compile(r"[^\w%]+", re.UNICODE)
 termSpaces = re.compile(r"\s+")
-hyphenatedVitaminRule = re.compile(r"\b(?:VIT|VITAMIN)[\s-]+D\s*-\s*[23]\b")
+numericTerms = re.compile(r"([+-]?(?:\d+(?:\s*[.,/-]\s*\d+)*|\.\d+))")
+mixedFractions = re.compile(r"(?<=\d)([\u00bc-\u00be\u2150-\u215e])")
+numericSymbols = str.maketrans({"–": "-", "—": "-", "−": "-", "⁄": "/", "∕": "/"})
+vitaminFamilyRule = re.compile(
+  r"\b(?:VIT|VITAMIN)[\s-]+D-?[23]"
+  r"(?![\w]|[.,/-]\s*\d|\s*(?:%|(?:MCG|UG|ΜG|MG|G|IU)\b))"
+)
 # These aliases cover inspected formatting families without guessing at fuzzy similarity.
 productAliasRules = [
-  (re.compile(r"\b(?:VIT|VITAMIN)\s+D[23]\b"), "VITAMIN D"),
   (re.compile(r"\bVIT\s+D\b"), "VITAMIN D"),
   (re.compile(r"\bNATUREMADE\b"), "NATURE MADE"),
   (re.compile(r"\bSOFT\s*GELS?\b"), "SOFT GEL"),
@@ -318,16 +323,24 @@ def getGender(consumer):
 
 
 def normalizeTerm(value, field):
-  value = unicodedata.normalize("NFKC", value).upper()
-  if field == "product":
-    value = hyphenatedVitaminRule.sub("VITAMIN D", value)
-  value = value.replace("&", " AND ").replace("+", " PLUS ")
-  for apostrophe in ("'", "’", "‘", "`", "ʼ", "\u0092"):
-    value = value.replace(apostrophe, "")
-  value = termPunctuation.sub(" ", value.replace("_", " "))
-  value = termSpaces.sub(" ", value).strip()
+  # Separate a mixed fraction before NFKC turns 1½ into the misleading 11⁄2.
+  value = mixedFractions.sub(r" \1", value)
+  value = unicodedata.normalize("NFKC", value).upper().translate(numericSymbols)
+
+  # Captured numeric spans keep their separators; only surrounding text is cleaned.
+  parts = numericTerms.split(value)
+  for index, part in enumerate(parts):
+    if index % 2:
+      parts[index] = termSpaces.sub("", part)
+      continue
+    part = part.replace("&", " AND ").replace("+", " PLUS ")
+    for apostrophe in ("'", "’", "‘", "`", "ʼ", "\u0092"):
+      part = part.replace(apostrophe, "")
+    parts[index] = termPunctuation.sub(" ", part.replace("_", " "))
+  value = termSpaces.sub(" ", "".join(parts)).strip()
 
   if field == "product":
+    value = vitaminFamilyRule.sub("VITAMIN D", value)
     for pattern, replacement in productAliasRules:
       value = pattern.sub(replacement, value)
     value = termSpaces.sub(" ", value).strip()
