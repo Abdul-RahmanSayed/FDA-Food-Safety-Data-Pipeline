@@ -23,7 +23,7 @@ maxAge = 125
 dataDir = Path(__file__).resolve().parent / "data"
 chartsDir = Path(__file__).resolve().parent / "charts"
 yearPattern = re.compile(r"^\d{4}$")
-usage = "Usage: python part2.py [YEAR or PRODUCT] ..."
+usage = "Usage: python part2.py [YEAR or PRODUCT] ... [--group-by year|gender|product]"
 ageFactors = {
   "year(s)": 1,
   "month(s)": 1 / 12,
@@ -139,13 +139,27 @@ class DataError(Part2Error):
 def parseArgs(values):
   years = []
   productWords = []
+  groupBy = None
+  index = 0
 
   # Exact four-digit arguments are years; the remaining words form one product filter.
-  for value in values:
-    value = value.strip()
+  while index < len(values):
+    value = values[index].strip()
+    index += 1
     if not value:
       raise UsageError("Arguments cannot be blank.")
-    if yearPattern.fullmatch(value):
+    if value == "--group-by":
+      if groupBy is not None:
+        raise UsageError("Provide --group-by only once.")
+      if index == len(values):
+        raise UsageError("--group-by requires year, gender, or product.")
+      groupBy = values[index].strip()
+      index += 1
+      if groupBy not in ("year", "gender", "product"):
+        raise UsageError("--group-by requires year, gender, or product.")
+    elif value.startswith("--"):
+      raise UsageError(f"Unknown option: {value}")
+    elif yearPattern.fullmatch(value):
       years.append(int(value))
     else:
       productWords.append(value)
@@ -159,7 +173,8 @@ def parseArgs(values):
   selectedStart = years[0] if years else startYear
   selectedEnd = years[1] if len(years) == 2 else endYear
   productFilter = " ".join(productWords) or None
-  return {"startYear": selectedStart, "endYear": selectedEnd, "productFilter": productFilter}
+  return {"startYear": selectedStart, "endYear": selectedEnd,
+          "productFilter": productFilter, "groupBy": groupBy}
 
 
 def readJson(filePath, label):
@@ -503,6 +518,69 @@ def printSummary(dataFrame):
   print(f"  Male Avg: {formatAge(averages['male'])}")
 
 
+def getGroupedSummary(dataFrame, groupBy):
+  if groupBy not in ("year", "gender", "product"):
+    raise UsageError("--group-by requires year, gender, or product.")
+
+  if groupBy == "product":
+    # Lists already contain each canonical name once per report; only memberships expand.
+    products = dataFrame["suspectProducts"].explode().dropna()
+    groups = ((name, dataFrame.loc[products.index[products == name]])
+              for name, _ in getTopTerms(dataFrame, "suspectProducts"))
+  else:
+    labels = dataFrame["gender"].fillna("Unknown") if groupBy == "gender" else dataFrame["year"]
+    groups = dataFrame.groupby(labels, sort=True)
+
+  summaries = []
+  coveredRows = set()
+  for label, group in groups:
+    ages = getValidAges(group)
+    summaries.append({
+      "label": str(label),
+      "recordCount": len(group),
+      "validAgeCount": int(ages.size),
+      "averageAge": float(np.mean(ages)) if ages.size else None,
+      "outcomes": getTopTerms(group, "outcomes"),
+      "reactions": getTopTerms(group, "reactions"),
+    })
+    coveredRows.update(group.index)
+
+  return {
+    "groupBy": groupBy,
+    "groups": summaries,
+    "totalRecords": len(dataFrame),
+    "coveredRecords": len(coveredRows),
+    "memberships": sum(group["recordCount"] for group in summaries),
+  }
+
+
+def printGroupedSummary(summary):
+  groupBy = summary["groupBy"]
+  print(f"Grouped Summary by {groupBy.title()}:")
+  if groupBy == "product":
+    print("Top 25 canonical suspect-product groups; reports can appear in multiple groups.")
+    print(f"Coverage: {summary['coveredRecords']:,} of {summary['totalRecords']:,} distinct selected reports; "
+          f"{summary['memberships']:,} displayed product memberships.")
+  else:
+    print("Only groups with matching reports are shown.")
+    if groupBy == "gender":
+      print("Unknown includes missing or unrecognized gender values.")
+  if not summary["groups"]:
+    print("  No matching groups.")
+    return
+
+  for group in summary["groups"]:
+    label = group["label"]
+    if groupBy == "year" and label == str(endYear):
+      label += " (January 1 only in this snapshot)"
+    print(f"\n{label}:")
+    print(f"  Records: {group['recordCount']:,}")
+    print(f"  Reports with Valid Age: {group['validAgeCount']:,}")
+    print(f"  Average Consumer Age: {formatAge(group['averageAge'])}")
+    printTopTerms("Outcomes", group["outcomes"])
+    printTopTerms("Reactions", group["reactions"])
+
+
 def getYearCounts(dataFrame, filters):
   years = range(filters["startYear"], filters["endYear"] + 1)
   return dataFrame["year"].value_counts().reindex(years, fill_value=0).sort_index()
@@ -577,8 +655,12 @@ def main(values=None, root=dataDir, chartRoot=chartsDir, executionTime=None):
   reports = loadReports(root)
   selected = selectReports(reports, filters)
   dataFrame = makeDataFrame(selected)
+  grouped = getGroupedSummary(dataFrame, filters["groupBy"]) if filters["groupBy"] else None
   chartPath = saveChart(dataFrame, filters, chartRoot, executionTime)
   printSummary(dataFrame)
+  if grouped is not None:
+    print()
+    printGroupedSummary(grouped)
   print()
   print(f"Chart saved to: {chartPath}")
   return dataFrame
