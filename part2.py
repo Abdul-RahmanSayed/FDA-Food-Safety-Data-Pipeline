@@ -23,7 +23,8 @@ maxAge = 125
 dataDir = Path(__file__).resolve().parent / "data"
 chartsDir = Path(__file__).resolve().parent / "charts"
 yearPattern = re.compile(r"^\d{4}$")
-usage = "Usage: python part2.py [YEAR or PRODUCT] ... [--group-by year|gender|product]"
+usage = ("Usage: python part2.py [YEAR or PRODUCT] ... [--product TEXT] "
+         "[--group-by year|gender|product]")
 ageFactors = {
   "year(s)": 1,
   "month(s)": 1 / 12,
@@ -139,6 +140,7 @@ class DataError(Part2Error):
 def parseArgs(values):
   years = []
   productWords = []
+  explicitProduct = None
   groupBy = None
   index = 0
 
@@ -148,7 +150,17 @@ def parseArgs(values):
     index += 1
     if not value:
       raise UsageError("Arguments cannot be blank.")
-    if value == "--group-by":
+    if value == "--product":
+      if explicitProduct is not None:
+        raise UsageError("Provide --product only once.")
+      if index == len(values) or values[index].strip().startswith("--"):
+        raise UsageError("--product requires a text value; quote names containing spaces.")
+      # Consume numeric product names before the positional year check.
+      explicitProduct = values[index].strip()
+      index += 1
+      if not explicitProduct:
+        raise UsageError("--product cannot be blank.")
+    elif value == "--group-by":
       if groupBy is not None:
         raise UsageError("Provide --group-by only once.")
       if index == len(values):
@@ -168,11 +180,13 @@ def parseArgs(values):
     raise UsageError("Provide no more than two years.")
   if any(year < startYear or year > endYear for year in years):
     raise UsageError(f"Years must be between {startYear} and {endYear}.")
+  if explicitProduct is not None and productWords:
+    raise UsageError("Use either positional product text or --product, not both.")
 
   years.sort()
   selectedStart = years[0] if years else startYear
   selectedEnd = years[1] if len(years) == 2 else endYear
-  productFilter = " ".join(productWords) or None
+  productFilter = explicitProduct if explicitProduct is not None else " ".join(productWords) or None
   return {"startYear": selectedStart, "endYear": selectedEnd,
           "productFilter": productFilter, "groupBy": groupBy}
 
@@ -394,7 +408,7 @@ def ageInYears(consumer):
 
   try:
     age = float(age)
-  except (TypeError, ValueError):
+  except (TypeError, ValueError, OverflowError):
     return None
 
   factor = ageFactors.get(unit.strip().casefold())
@@ -493,13 +507,21 @@ def getTopTerms(dataFrame, column, limit=25):
   return sorted(counts, key=lambda item: (-item[1], item[0]))[:limit]
 
 
-def printTopTerms(title, terms):
+def getProductLabel(name):
+  # This disclosure bucket can contain multiple unidentified products.
+  if name == "EXEMPTION 4":
+    return "Undisclosed product names (EXEMPTION 4; may include multiple products)"
+  return name
+
+
+def printTopTerms(title, terms, field=None):
   print(f"Top 25 {title}:")
   if not terms:
     print("  No matching values.")
     return
   for index, (term, count) in enumerate(terms, 1):
-    print(f"  {index}. {term}: {count:,}")
+    label = getProductLabel(term) if field == "product" else term
+    print(f"  {index}. {label}: {count:,}")
 
 
 def printSummary(dataFrame):
@@ -510,7 +532,7 @@ def printSummary(dataFrame):
   print()
   printTopTerms("Reactions", getTopTerms(dataFrame, "reactions"))
   print()
-  printTopTerms("Suspect Products", getTopTerms(dataFrame, "suspectProducts"))
+  printTopTerms("Suspect Products", getTopTerms(dataFrame, "suspectProducts"), field="product")
   print()
   print("Average Consumer Age:")
   print(f"  Total Avg: {formatAge(averages['total'])}")
@@ -570,7 +592,7 @@ def printGroupedSummary(summary):
     return
 
   for group in summary["groups"]:
-    label = group["label"]
+    label = getProductLabel(group["label"]) if groupBy == "product" else group["label"]
     if groupBy == "year" and label == str(endYear):
       label += " (January 1 only in this snapshot)"
     print(f"\n{label}:")
