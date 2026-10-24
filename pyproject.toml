@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fda-analysis-core"
+version = "0.1.0"
+description = "Canonical saved-snapshot validation and analysis policy for the FDA Food Safety Data Pipeline"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["fda_core"]
